@@ -1,0 +1,299 @@
+\hypertarget{class_route}{}\doxysection{Route Class Reference}
+\label{class_route}\index{Route@{Route}}
+
+
+{\ttfamily \#include $<$Route.\+h$>$}
+
+
+
+Collaboration diagram for Route\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{class_route__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_route_a4ae82082c7ec1c155db282a13d4e261d}{Route}} (const vector$<$ string $>$ \&v)
+\item 
+string \mbox{\hyperlink{class_route_abb967f1a10972a0756bad4f1b7acf1d0}{get\+\_\+airline}} () const
+\item 
+int \mbox{\hyperlink{class_route_a19c1ca90c668fe7679ceb569a7e8165f}{get\+\_\+airline\+\_\+id}} () const
+\item 
+string \mbox{\hyperlink{class_route_a1750c39938910529a8412cd0c0a5f2d1}{get\+\_\+source}} () const
+\item 
+int \mbox{\hyperlink{class_route_a5058d22b709123642bbbafaa4bf80038}{get\+\_\+source\+\_\+id}} () const
+\item 
+string \mbox{\hyperlink{class_route_a2eeb518c9577ba15ed0ef76709f04b86}{get\+\_\+dest}} () const
+\item 
+int \mbox{\hyperlink{class_route_ac4b1bedc57ae295b06ac6a186b92c3b6}{get\+\_\+dest\+\_\+id}} () const
+\item 
+string \mbox{\hyperlink{class_route_abc35db27c57021f4985655e1a9d71c77}{get\+\_\+plane\+\_\+\+I\+A\+T\+As}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_route_a18b31b72d69566a7c6e6faa9919dd776}{a\+\_\+airline}}
+\item 
+int \mbox{\hyperlink{class_route_aa4d2d211106f7e3a99e038d542a02585}{a\+\_\+airline\+\_\+id}}
+\item 
+string \mbox{\hyperlink{class_route_a93d34e48566f6fe32fd4980b7db59b89}{a\+\_\+source}}
+\item 
+int \mbox{\hyperlink{class_route_ab80a7d6e3c9992e40ad248bd7f891d08}{a\+\_\+source\+\_\+id}}
+\item 
+string \mbox{\hyperlink{class_route_ab53f20b5c09a6fe0d5ab27af52474db0}{a\+\_\+dest}}
+\item 
+int \mbox{\hyperlink{class_route_a8d85f062ce8847b049ab51c1844dfffe}{a\+\_\+dest\+\_\+id}}
+\item 
+char \mbox{\hyperlink{class_route_a9cf4ff8ee871dcba718e785d7879d12f}{a\+\_\+codeshare}}
+\item 
+int \mbox{\hyperlink{class_route_adb4dd5a1493903719f185f152604c193}{a\+\_\+n\+\_\+stops}}
+\item 
+string \mbox{\hyperlink{class_route_ac2b2aad90685b93a234351968b19dd70}{a\+\_\+plane\+\_\+\+I\+A\+T\+As}}
+\begin{DoxyCompactList}\small\item\em Guarda tots els codi I\+A\+TA dels avions d\textquotesingle{}aquesta ruta en un sol string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file Route.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_route_a4ae82082c7ec1c155db282a13d4e261d}\label{class_route_a4ae82082c7ec1c155db282a13d4e261d}} 
+\index{Route@{Route}!Route@{Route}}
+\index{Route@{Route}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{Route()}{Route()}}
+{\footnotesize\ttfamily Route\+::\+Route (\begin{DoxyParamCaption}\item[{const vector$<$ string $>$ \&}]{v }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+El vector conte les dades d\textquotesingle{}una ruta amb el format correcte. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Crea una nova ruta a partir de les dades contingudes en el vector. 
+\end{DoxyPostcond}
+
+
+Definition at line 7 of file Route.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_route_abb967f1a10972a0756bad4f1b7acf1d0}\label{class_route_abb967f1a10972a0756bad4f1b7acf1d0}} 
+\index{Route@{Route}!get\_airline@{get\_airline}}
+\index{get\_airline@{get\_airline}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{get\_airline()}{get\_airline()}}
+{\footnotesize\ttfamily string Route\+::get\+\_\+airline (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el codi I\+A\+TA o I\+C\+AO de l\textquotesingle{}aerolinia d\textquotesingle{}aquesta ruta. 
+\end{DoxyPostcond}
+
+
+Definition at line 30 of file Route.\+cpp.
+
+\mbox{\Hypertarget{class_route_a19c1ca90c668fe7679ceb569a7e8165f}\label{class_route_a19c1ca90c668fe7679ceb569a7e8165f}} 
+\index{Route@{Route}!get\_airline\_id@{get\_airline\_id}}
+\index{get\_airline\_id@{get\_airline\_id}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{get\_airline\_id()}{get\_airline\_id()}}
+{\footnotesize\ttfamily int Route\+::get\+\_\+airline\+\_\+id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna la Open\+Flights ID de l\textquotesingle{}aerolinia d\textquotesingle{}aquesta ruta. 
+\end{DoxyPostcond}
+
+
+Definition at line 35 of file Route.\+cpp.
+
+\mbox{\Hypertarget{class_route_a2eeb518c9577ba15ed0ef76709f04b86}\label{class_route_a2eeb518c9577ba15ed0ef76709f04b86}} 
+\index{Route@{Route}!get\_dest@{get\_dest}}
+\index{get\_dest@{get\_dest}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{get\_dest()}{get\_dest()}}
+{\footnotesize\ttfamily string Route\+::get\+\_\+dest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el codi I\+A\+TA o I\+C\+AO de l\textquotesingle{}aeroport de desti d\textquotesingle{}aquesta ruta. 
+\end{DoxyPostcond}
+
+
+Definition at line 50 of file Route.\+cpp.
+
+\mbox{\Hypertarget{class_route_ac4b1bedc57ae295b06ac6a186b92c3b6}\label{class_route_ac4b1bedc57ae295b06ac6a186b92c3b6}} 
+\index{Route@{Route}!get\_dest\_id@{get\_dest\_id}}
+\index{get\_dest\_id@{get\_dest\_id}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{get\_dest\_id()}{get\_dest\_id()}}
+{\footnotesize\ttfamily int Route\+::get\+\_\+dest\+\_\+id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna la Open\+Flights ID de l\textquotesingle{}aeroport de desti d\textquotesingle{}aquesta ruta. 
+\end{DoxyPostcond}
+
+
+Definition at line 55 of file Route.\+cpp.
+
+\mbox{\Hypertarget{class_route_abc35db27c57021f4985655e1a9d71c77}\label{class_route_abc35db27c57021f4985655e1a9d71c77}} 
+\index{Route@{Route}!get\_plane\_IATAs@{get\_plane\_IATAs}}
+\index{get\_plane\_IATAs@{get\_plane\_IATAs}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{get\_plane\_IATAs()}{get\_plane\_IATAs()}}
+{\footnotesize\ttfamily string Route\+::get\+\_\+plane\+\_\+\+I\+A\+T\+As (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna un sol string que conte tots els codis I\+A\+TA dels avions d\textquotesingle{}aquesta ruta. 
+\end{DoxyPostcond}
+
+
+Definition at line 60 of file Route.\+cpp.
+
+\mbox{\Hypertarget{class_route_a1750c39938910529a8412cd0c0a5f2d1}\label{class_route_a1750c39938910529a8412cd0c0a5f2d1}} 
+\index{Route@{Route}!get\_source@{get\_source}}
+\index{get\_source@{get\_source}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{get\_source()}{get\_source()}}
+{\footnotesize\ttfamily string Route\+::get\+\_\+source (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el codi I\+A\+TA o I\+C\+AO de l\textquotesingle{}aeroport d\textquotesingle{}origen d\textquotesingle{}aquesta ruta. 
+\end{DoxyPostcond}
+
+
+Definition at line 40 of file Route.\+cpp.
+
+\mbox{\Hypertarget{class_route_a5058d22b709123642bbbafaa4bf80038}\label{class_route_a5058d22b709123642bbbafaa4bf80038}} 
+\index{Route@{Route}!get\_source\_id@{get\_source\_id}}
+\index{get\_source\_id@{get\_source\_id}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{get\_source\_id()}{get\_source\_id()}}
+{\footnotesize\ttfamily int Route\+::get\+\_\+source\+\_\+id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna la Open\+Flights ID de l\textquotesingle{}aeroport d\textquotesingle{}origen d\textquotesingle{}aquesta ruta. 
+\end{DoxyPostcond}
+
+
+Definition at line 45 of file Route.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_route_a18b31b72d69566a7c6e6faa9919dd776}\label{class_route_a18b31b72d69566a7c6e6faa9919dd776}} 
+\index{Route@{Route}!a\_airline@{a\_airline}}
+\index{a\_airline@{a\_airline}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{a\_airline}{a\_airline}}
+{\footnotesize\ttfamily string Route\+::a\+\_\+airline\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 65 of file Route.\+h.
+
+\mbox{\Hypertarget{class_route_aa4d2d211106f7e3a99e038d542a02585}\label{class_route_aa4d2d211106f7e3a99e038d542a02585}} 
+\index{Route@{Route}!a\_airline\_id@{a\_airline\_id}}
+\index{a\_airline\_id@{a\_airline\_id}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{a\_airline\_id}{a\_airline\_id}}
+{\footnotesize\ttfamily int Route\+::a\+\_\+airline\+\_\+id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 66 of file Route.\+h.
+
+\mbox{\Hypertarget{class_route_a9cf4ff8ee871dcba718e785d7879d12f}\label{class_route_a9cf4ff8ee871dcba718e785d7879d12f}} 
+\index{Route@{Route}!a\_codeshare@{a\_codeshare}}
+\index{a\_codeshare@{a\_codeshare}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{a\_codeshare}{a\_codeshare}}
+{\footnotesize\ttfamily char Route\+::a\+\_\+codeshare\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 71 of file Route.\+h.
+
+\mbox{\Hypertarget{class_route_ab53f20b5c09a6fe0d5ab27af52474db0}\label{class_route_ab53f20b5c09a6fe0d5ab27af52474db0}} 
+\index{Route@{Route}!a\_dest@{a\_dest}}
+\index{a\_dest@{a\_dest}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{a\_dest}{a\_dest}}
+{\footnotesize\ttfamily string Route\+::a\+\_\+dest\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 69 of file Route.\+h.
+
+\mbox{\Hypertarget{class_route_a8d85f062ce8847b049ab51c1844dfffe}\label{class_route_a8d85f062ce8847b049ab51c1844dfffe}} 
+\index{Route@{Route}!a\_dest\_id@{a\_dest\_id}}
+\index{a\_dest\_id@{a\_dest\_id}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{a\_dest\_id}{a\_dest\_id}}
+{\footnotesize\ttfamily int Route\+::a\+\_\+dest\+\_\+id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 70 of file Route.\+h.
+
+\mbox{\Hypertarget{class_route_adb4dd5a1493903719f185f152604c193}\label{class_route_adb4dd5a1493903719f185f152604c193}} 
+\index{Route@{Route}!a\_n\_stops@{a\_n\_stops}}
+\index{a\_n\_stops@{a\_n\_stops}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{a\_n\_stops}{a\_n\_stops}}
+{\footnotesize\ttfamily int Route\+::a\+\_\+n\+\_\+stops\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 72 of file Route.\+h.
+
+\mbox{\Hypertarget{class_route_ac2b2aad90685b93a234351968b19dd70}\label{class_route_ac2b2aad90685b93a234351968b19dd70}} 
+\index{Route@{Route}!a\_plane\_IATAs@{a\_plane\_IATAs}}
+\index{a\_plane\_IATAs@{a\_plane\_IATAs}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{a\_plane\_IATAs}{a\_plane\_IATAs}}
+{\footnotesize\ttfamily string Route\+::a\+\_\+plane\+\_\+\+I\+A\+T\+As\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Guarda tots els codi I\+A\+TA dels avions d\textquotesingle{}aquesta ruta en un sol string. 
+
+
+
+Definition at line 75 of file Route.\+h.
+
+\mbox{\Hypertarget{class_route_a93d34e48566f6fe32fd4980b7db59b89}\label{class_route_a93d34e48566f6fe32fd4980b7db59b89}} 
+\index{Route@{Route}!a\_source@{a\_source}}
+\index{a\_source@{a\_source}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{a\_source}{a\_source}}
+{\footnotesize\ttfamily string Route\+::a\+\_\+source\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 67 of file Route.\+h.
+
+\mbox{\Hypertarget{class_route_ab80a7d6e3c9992e40ad248bd7f891d08}\label{class_route_ab80a7d6e3c9992e40ad248bd7f891d08}} 
+\index{Route@{Route}!a\_source\_id@{a\_source\_id}}
+\index{a\_source\_id@{a\_source\_id}!Route@{Route}}
+\doxysubsubsection{\texorpdfstring{a\_source\_id}{a\_source\_id}}
+{\footnotesize\ttfamily int Route\+::a\+\_\+source\+\_\+id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 68 of file Route.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_route_8h}{Route.\+h}}\item 
+\mbox{\hyperlink{_route_8cpp}{Route.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,31 @@
+// Marti Mas Fullana
+// Usuari u1956231
+// Sessio 4
+
+#include "Plane.h"
+
+Plane::Plane() {
+
+    a_name = a_IATA = a_ICAO = "";
+}
+
+Plane::Plane(const vector<string>& v) {
+
+    vector<string>::const_iterator it = v.begin();
+
+    a_name = *it; it++;
+    a_IATA = *it; it++;
+    a_ICAO = *it; it++;
+}
+
+void Plane::mostra() const {
+
+    cout << "NAME: " << a_name << endl;
+    cout << "IATA: " << a_IATA << endl;
+    cout << "ICAO: " << a_ICAO << endl;
+}
+
+string Plane::get_name() const {
+
+    return a_name;
+}

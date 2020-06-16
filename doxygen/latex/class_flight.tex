@@ -1,0 +1,427 @@
+\hypertarget{class_flight}{}\doxysection{Flight Class Reference}
+\label{class_flight}\index{Flight@{Flight}}
+
+
+{\ttfamily \#include $<$Flight.\+h$>$}
+
+
+
+Collaboration diagram for Flight\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_flight__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_flight_a1fb9bdfbde2ec894d527f4821aec543a}{Flight}} (const vector$<$ string $>$ \&v)
+\item 
+string \mbox{\hyperlink{class_flight_a2156b06b401ac3659e46e15529426ca0}{get\+\_\+date}} () const
+\item 
+string \mbox{\hyperlink{class_flight_a25a5965638a7333f0b93be397b20bc65}{get\+\_\+op\+\_\+carrier\+\_\+\+I\+A\+TA}} () const
+\item 
+string \mbox{\hyperlink{class_flight_abf04f230a55e1f1bffcdcf26f570d64b}{get\+\_\+origin\+\_\+\+I\+A\+TA}} () const
+\item 
+string \mbox{\hyperlink{class_flight_a8420034f5d034193c86b182d3fe7473d}{get\+\_\+dest\+\_\+\+I\+A\+TA}} () const
+\item 
+float \mbox{\hyperlink{class_flight_a3629be0d706b9c9098c3487d5463a289}{get\+\_\+dept\+\_\+\+D\+E\+L\+AY}} () const
+\item 
+float \mbox{\hyperlink{class_flight_a2ba3c632e011eb61308edd984259dea4}{get\+\_\+arr\+\_\+\+D\+E\+L\+AY}} () const
+\item 
+bool \mbox{\hyperlink{class_flight_a058c2b538d2c32e5d6813009e19622f0}{es\+\_\+aeroport\+\_\+origen}} (const string \&ap) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_flight_aa7055aa3453928f4eda27ffb22e3a1e0}{\+\_\+s\+\_\+year}}
+\item 
+string \mbox{\hyperlink{class_flight_a179494f7a8386b60dad98a3b9bf44e6e}{\+\_\+s\+\_\+month}}
+\item 
+string \mbox{\hyperlink{class_flight_ae6068597ab8d6f5417ce617c436bbfce}{\+\_\+s\+\_\+day\+\_\+of\+\_\+month}}
+\item 
+string \mbox{\hyperlink{class_flight_a8845db6e31fb0692abb4a477c2d57813}{\+\_\+s\+\_\+day\+\_\+of\+\_\+week}}
+\item 
+string \mbox{\hyperlink{class_flight_ad8f338051c73b8f48e1247f4b603cb92}{\+\_\+s\+\_\+op\+\_\+carrier\+\_\+\+I\+A\+TA}}
+\item 
+int \mbox{\hyperlink{class_flight_a170f1a617d29e9dd0f3cb44a918ff542}{\+\_\+i\+\_\+op\+\_\+carrier\+\_\+fl\+\_\+num}}
+\item 
+string \mbox{\hyperlink{class_flight_a91cf08c795a00733660b30527f0c15c9}{\+\_\+s\+\_\+origin\+\_\+\+I\+A\+TA}}
+\item 
+string \mbox{\hyperlink{class_flight_a54635e1e2f7f9a5430c80eb25e87750c}{\+\_\+s\+\_\+origin\+\_\+\+C\+I\+TY}}
+\item 
+string \mbox{\hyperlink{class_flight_ab44794c76a860b501cf617ebcee8cd45}{\+\_\+s\+\_\+dest\+\_\+\+I\+A\+TA}}
+\item 
+string \mbox{\hyperlink{class_flight_a82b7ed57500229380b7ffe2f1178bf8a}{\+\_\+s\+\_\+dest\+\_\+\+C\+I\+TY}}
+\item 
+int \mbox{\hyperlink{class_flight_ab97d3e56368e8ad13e8aa468ae555668}{\+\_\+i\+\_\+\+C\+R\+S\+\_\+dept}}
+\item 
+int \mbox{\hyperlink{class_flight_aa7f1e8040fccced9c7e1463c064895ea}{\+\_\+i\+\_\+\+A\+C\+T\+U\+A\+L\+\_\+dept}}
+\item 
+int \mbox{\hyperlink{class_flight_af8e4719a18955b968c70086903ac2913}{\+\_\+i\+\_\+\+C\+R\+S\+\_\+arr}}
+\item 
+int \mbox{\hyperlink{class_flight_a90cb38dce27f8533efc3d5815b4ff2bc}{\+\_\+i\+\_\+\+A\+C\+T\+U\+A\+L\+\_\+arr}}
+\item 
+float \mbox{\hyperlink{class_flight_a4853a30b5c717867b910782721b9b256}{\+\_\+f\+\_\+dept\+\_\+\+D\+E\+L\+AY}}
+\item 
+float \mbox{\hyperlink{class_flight_a92d71a1319e1468a0cba6905a93a2c36}{\+\_\+f\+\_\+arr\+\_\+\+D\+E\+L\+AY}}
+\item 
+bool \mbox{\hyperlink{class_flight_accf2d694581092b6e3ca8ebe45a88a13}{\+\_\+b\+\_\+cancelled}}
+\item 
+float \mbox{\hyperlink{class_flight_a2dccebe22de780b8ad21e61cf4b3d3f0}{\+\_\+f\+\_\+\+C\+R\+S\+\_\+elapsed}}
+\item 
+float \mbox{\hyperlink{class_flight_a512b976cd87d988872ef3d80dc065134}{\+\_\+f\+\_\+\+A\+C\+T\+U\+A\+L\+\_\+elapsed}}
+\item 
+float \mbox{\hyperlink{class_flight_a9d8a5de604b09b82e916eccbae5c49eb}{\+\_\+f\+\_\+distance}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file Flight.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_flight_a1fb9bdfbde2ec894d527f4821aec543a}\label{class_flight_a1fb9bdfbde2ec894d527f4821aec543a}} 
+\index{Flight@{Flight}!Flight@{Flight}}
+\index{Flight@{Flight}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{Flight()}{Flight()}}
+{\footnotesize\ttfamily Flight\+::\+Flight (\begin{DoxyParamCaption}\item[{const vector$<$ string $>$ \&}]{v }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+El vector conte les dades d\textquotesingle{}un vol amb el format correcte. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Crea un nou vol a partir de les dades contingudes en el vector. 
+\end{DoxyPostcond}
+
+
+Definition at line 7 of file Flight.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_flight_a058c2b538d2c32e5d6813009e19622f0}\label{class_flight_a058c2b538d2c32e5d6813009e19622f0}} 
+\index{Flight@{Flight}!es\_aeroport\_origen@{es\_aeroport\_origen}}
+\index{es\_aeroport\_origen@{es\_aeroport\_origen}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{es\_aeroport\_origen()}{es\_aeroport\_origen()}}
+{\footnotesize\ttfamily bool Flight\+::es\+\_\+aeroport\+\_\+origen (\begin{DoxyParamCaption}\item[{const string \&}]{ap }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+\textquotesingle{}ap\textquotesingle{} es el codi I\+A\+TA d\textquotesingle{}un aeroport. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Diu si \textquotesingle{}ap\textquotesingle{} es l\textquotesingle{}aeroport d\textquotesingle{}origen d\textquotesingle{}aquest vol. 
+\end{DoxyPostcond}
+
+
+Definition at line 76 of file Flight.\+cpp.
+
+\mbox{\Hypertarget{class_flight_a2ba3c632e011eb61308edd984259dea4}\label{class_flight_a2ba3c632e011eb61308edd984259dea4}} 
+\index{Flight@{Flight}!get\_arr\_DELAY@{get\_arr\_DELAY}}
+\index{get\_arr\_DELAY@{get\_arr\_DELAY}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{get\_arr\_DELAY()}{get\_arr\_DELAY()}}
+{\footnotesize\ttfamily float Flight\+::get\+\_\+arr\+\_\+\+D\+E\+L\+AY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el retard d\textquotesingle{}arribada d\textquotesingle{}aquest vol. 
+\end{DoxyPostcond}
+
+
+Definition at line 71 of file Flight.\+cpp.
+
+\mbox{\Hypertarget{class_flight_a2156b06b401ac3659e46e15529426ca0}\label{class_flight_a2156b06b401ac3659e46e15529426ca0}} 
+\index{Flight@{Flight}!get\_date@{get\_date}}
+\index{get\_date@{get\_date}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{get\_date()}{get\_date()}}
+{\footnotesize\ttfamily string Flight\+::get\+\_\+date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna la data d\textquotesingle{}aquest vol en format \mbox{[}A\+A\+A\+A\+M\+M\+DD\mbox{]}. 
+\end{DoxyPostcond}
+
+
+Definition at line 42 of file Flight.\+cpp.
+
+\mbox{\Hypertarget{class_flight_a3629be0d706b9c9098c3487d5463a289}\label{class_flight_a3629be0d706b9c9098c3487d5463a289}} 
+\index{Flight@{Flight}!get\_dept\_DELAY@{get\_dept\_DELAY}}
+\index{get\_dept\_DELAY@{get\_dept\_DELAY}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{get\_dept\_DELAY()}{get\_dept\_DELAY()}}
+{\footnotesize\ttfamily float Flight\+::get\+\_\+dept\+\_\+\+D\+E\+L\+AY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el retard de sortida d\textquotesingle{}aquest vol. 
+\end{DoxyPostcond}
+
+
+Definition at line 66 of file Flight.\+cpp.
+
+\mbox{\Hypertarget{class_flight_a8420034f5d034193c86b182d3fe7473d}\label{class_flight_a8420034f5d034193c86b182d3fe7473d}} 
+\index{Flight@{Flight}!get\_dest\_IATA@{get\_dest\_IATA}}
+\index{get\_dest\_IATA@{get\_dest\_IATA}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{get\_dest\_IATA()}{get\_dest\_IATA()}}
+{\footnotesize\ttfamily string Flight\+::get\+\_\+dest\+\_\+\+I\+A\+TA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el codi I\+A\+TA de l\textquotesingle{}aeroport de desti d\textquotesingle{}aquest vol. 
+\end{DoxyPostcond}
+
+
+Definition at line 61 of file Flight.\+cpp.
+
+\mbox{\Hypertarget{class_flight_a25a5965638a7333f0b93be397b20bc65}\label{class_flight_a25a5965638a7333f0b93be397b20bc65}} 
+\index{Flight@{Flight}!get\_op\_carrier\_IATA@{get\_op\_carrier\_IATA}}
+\index{get\_op\_carrier\_IATA@{get\_op\_carrier\_IATA}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{get\_op\_carrier\_IATA()}{get\_op\_carrier\_IATA()}}
+{\footnotesize\ttfamily string Flight\+::get\+\_\+op\+\_\+carrier\+\_\+\+I\+A\+TA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retrona el codi I\+A\+TA de la aerolinia d\textquotesingle{}aquest vol. 
+\end{DoxyPostcond}
+
+
+Definition at line 51 of file Flight.\+cpp.
+
+\mbox{\Hypertarget{class_flight_abf04f230a55e1f1bffcdcf26f570d64b}\label{class_flight_abf04f230a55e1f1bffcdcf26f570d64b}} 
+\index{Flight@{Flight}!get\_origin\_IATA@{get\_origin\_IATA}}
+\index{get\_origin\_IATA@{get\_origin\_IATA}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{get\_origin\_IATA()}{get\_origin\_IATA()}}
+{\footnotesize\ttfamily string Flight\+::get\+\_\+origin\+\_\+\+I\+A\+TA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el codi I\+A\+TA de l\textquotesingle{}aeroport d\textquotesingle{}origen d\textquotesingle{}aquest vol. 
+\end{DoxyPostcond}
+
+
+Definition at line 56 of file Flight.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_flight_accf2d694581092b6e3ca8ebe45a88a13}\label{class_flight_accf2d694581092b6e3ca8ebe45a88a13}} 
+\index{Flight@{Flight}!\_b\_cancelled@{\_b\_cancelled}}
+\index{\_b\_cancelled@{\_b\_cancelled}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_b\_cancelled}{\_b\_cancelled}}
+{\footnotesize\ttfamily bool Flight\+::\+\_\+b\+\_\+cancelled\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 71 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a512b976cd87d988872ef3d80dc065134}\label{class_flight_a512b976cd87d988872ef3d80dc065134}} 
+\index{Flight@{Flight}!\_f\_ACTUAL\_elapsed@{\_f\_ACTUAL\_elapsed}}
+\index{\_f\_ACTUAL\_elapsed@{\_f\_ACTUAL\_elapsed}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_f\_ACTUAL\_elapsed}{\_f\_ACTUAL\_elapsed}}
+{\footnotesize\ttfamily float Flight\+::\+\_\+f\+\_\+\+A\+C\+T\+U\+A\+L\+\_\+elapsed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 72 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a92d71a1319e1468a0cba6905a93a2c36}\label{class_flight_a92d71a1319e1468a0cba6905a93a2c36}} 
+\index{Flight@{Flight}!\_f\_arr\_DELAY@{\_f\_arr\_DELAY}}
+\index{\_f\_arr\_DELAY@{\_f\_arr\_DELAY}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_f\_arr\_DELAY}{\_f\_arr\_DELAY}}
+{\footnotesize\ttfamily float Flight\+::\+\_\+f\+\_\+arr\+\_\+\+D\+E\+L\+AY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 70 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a2dccebe22de780b8ad21e61cf4b3d3f0}\label{class_flight_a2dccebe22de780b8ad21e61cf4b3d3f0}} 
+\index{Flight@{Flight}!\_f\_CRS\_elapsed@{\_f\_CRS\_elapsed}}
+\index{\_f\_CRS\_elapsed@{\_f\_CRS\_elapsed}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_f\_CRS\_elapsed}{\_f\_CRS\_elapsed}}
+{\footnotesize\ttfamily float Flight\+::\+\_\+f\+\_\+\+C\+R\+S\+\_\+elapsed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 72 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a4853a30b5c717867b910782721b9b256}\label{class_flight_a4853a30b5c717867b910782721b9b256}} 
+\index{Flight@{Flight}!\_f\_dept\_DELAY@{\_f\_dept\_DELAY}}
+\index{\_f\_dept\_DELAY@{\_f\_dept\_DELAY}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_f\_dept\_DELAY}{\_f\_dept\_DELAY}}
+{\footnotesize\ttfamily float Flight\+::\+\_\+f\+\_\+dept\+\_\+\+D\+E\+L\+AY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 70 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a9d8a5de604b09b82e916eccbae5c49eb}\label{class_flight_a9d8a5de604b09b82e916eccbae5c49eb}} 
+\index{Flight@{Flight}!\_f\_distance@{\_f\_distance}}
+\index{\_f\_distance@{\_f\_distance}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_f\_distance}{\_f\_distance}}
+{\footnotesize\ttfamily float Flight\+::\+\_\+f\+\_\+distance\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 72 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a90cb38dce27f8533efc3d5815b4ff2bc}\label{class_flight_a90cb38dce27f8533efc3d5815b4ff2bc}} 
+\index{Flight@{Flight}!\_i\_ACTUAL\_arr@{\_i\_ACTUAL\_arr}}
+\index{\_i\_ACTUAL\_arr@{\_i\_ACTUAL\_arr}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_i\_ACTUAL\_arr}{\_i\_ACTUAL\_arr}}
+{\footnotesize\ttfamily int Flight\+::\+\_\+i\+\_\+\+A\+C\+T\+U\+A\+L\+\_\+arr\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 69 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_aa7f1e8040fccced9c7e1463c064895ea}\label{class_flight_aa7f1e8040fccced9c7e1463c064895ea}} 
+\index{Flight@{Flight}!\_i\_ACTUAL\_dept@{\_i\_ACTUAL\_dept}}
+\index{\_i\_ACTUAL\_dept@{\_i\_ACTUAL\_dept}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_i\_ACTUAL\_dept}{\_i\_ACTUAL\_dept}}
+{\footnotesize\ttfamily int Flight\+::\+\_\+i\+\_\+\+A\+C\+T\+U\+A\+L\+\_\+dept\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 69 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_af8e4719a18955b968c70086903ac2913}\label{class_flight_af8e4719a18955b968c70086903ac2913}} 
+\index{Flight@{Flight}!\_i\_CRS\_arr@{\_i\_CRS\_arr}}
+\index{\_i\_CRS\_arr@{\_i\_CRS\_arr}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_i\_CRS\_arr}{\_i\_CRS\_arr}}
+{\footnotesize\ttfamily int Flight\+::\+\_\+i\+\_\+\+C\+R\+S\+\_\+arr\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 69 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_ab97d3e56368e8ad13e8aa468ae555668}\label{class_flight_ab97d3e56368e8ad13e8aa468ae555668}} 
+\index{Flight@{Flight}!\_i\_CRS\_dept@{\_i\_CRS\_dept}}
+\index{\_i\_CRS\_dept@{\_i\_CRS\_dept}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_i\_CRS\_dept}{\_i\_CRS\_dept}}
+{\footnotesize\ttfamily int Flight\+::\+\_\+i\+\_\+\+C\+R\+S\+\_\+dept\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 69 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a170f1a617d29e9dd0f3cb44a918ff542}\label{class_flight_a170f1a617d29e9dd0f3cb44a918ff542}} 
+\index{Flight@{Flight}!\_i\_op\_carrier\_fl\_num@{\_i\_op\_carrier\_fl\_num}}
+\index{\_i\_op\_carrier\_fl\_num@{\_i\_op\_carrier\_fl\_num}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_i\_op\_carrier\_fl\_num}{\_i\_op\_carrier\_fl\_num}}
+{\footnotesize\ttfamily int Flight\+::\+\_\+i\+\_\+op\+\_\+carrier\+\_\+fl\+\_\+num\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 67 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_ae6068597ab8d6f5417ce617c436bbfce}\label{class_flight_ae6068597ab8d6f5417ce617c436bbfce}} 
+\index{Flight@{Flight}!\_s\_day\_of\_month@{\_s\_day\_of\_month}}
+\index{\_s\_day\_of\_month@{\_s\_day\_of\_month}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_s\_day\_of\_month}{\_s\_day\_of\_month}}
+{\footnotesize\ttfamily string Flight\+::\+\_\+s\+\_\+day\+\_\+of\+\_\+month\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 66 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a8845db6e31fb0692abb4a477c2d57813}\label{class_flight_a8845db6e31fb0692abb4a477c2d57813}} 
+\index{Flight@{Flight}!\_s\_day\_of\_week@{\_s\_day\_of\_week}}
+\index{\_s\_day\_of\_week@{\_s\_day\_of\_week}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_s\_day\_of\_week}{\_s\_day\_of\_week}}
+{\footnotesize\ttfamily string Flight\+::\+\_\+s\+\_\+day\+\_\+of\+\_\+week\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 66 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a82b7ed57500229380b7ffe2f1178bf8a}\label{class_flight_a82b7ed57500229380b7ffe2f1178bf8a}} 
+\index{Flight@{Flight}!\_s\_dest\_CITY@{\_s\_dest\_CITY}}
+\index{\_s\_dest\_CITY@{\_s\_dest\_CITY}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_s\_dest\_CITY}{\_s\_dest\_CITY}}
+{\footnotesize\ttfamily string Flight\+::\+\_\+s\+\_\+dest\+\_\+\+C\+I\+TY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 68 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_ab44794c76a860b501cf617ebcee8cd45}\label{class_flight_ab44794c76a860b501cf617ebcee8cd45}} 
+\index{Flight@{Flight}!\_s\_dest\_IATA@{\_s\_dest\_IATA}}
+\index{\_s\_dest\_IATA@{\_s\_dest\_IATA}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_s\_dest\_IATA}{\_s\_dest\_IATA}}
+{\footnotesize\ttfamily string Flight\+::\+\_\+s\+\_\+dest\+\_\+\+I\+A\+TA\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 68 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a179494f7a8386b60dad98a3b9bf44e6e}\label{class_flight_a179494f7a8386b60dad98a3b9bf44e6e}} 
+\index{Flight@{Flight}!\_s\_month@{\_s\_month}}
+\index{\_s\_month@{\_s\_month}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_s\_month}{\_s\_month}}
+{\footnotesize\ttfamily string Flight\+::\+\_\+s\+\_\+month\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 66 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_ad8f338051c73b8f48e1247f4b603cb92}\label{class_flight_ad8f338051c73b8f48e1247f4b603cb92}} 
+\index{Flight@{Flight}!\_s\_op\_carrier\_IATA@{\_s\_op\_carrier\_IATA}}
+\index{\_s\_op\_carrier\_IATA@{\_s\_op\_carrier\_IATA}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_s\_op\_carrier\_IATA}{\_s\_op\_carrier\_IATA}}
+{\footnotesize\ttfamily string Flight\+::\+\_\+s\+\_\+op\+\_\+carrier\+\_\+\+I\+A\+TA\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 66 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a54635e1e2f7f9a5430c80eb25e87750c}\label{class_flight_a54635e1e2f7f9a5430c80eb25e87750c}} 
+\index{Flight@{Flight}!\_s\_origin\_CITY@{\_s\_origin\_CITY}}
+\index{\_s\_origin\_CITY@{\_s\_origin\_CITY}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_s\_origin\_CITY}{\_s\_origin\_CITY}}
+{\footnotesize\ttfamily string Flight\+::\+\_\+s\+\_\+origin\+\_\+\+C\+I\+TY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 68 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_a91cf08c795a00733660b30527f0c15c9}\label{class_flight_a91cf08c795a00733660b30527f0c15c9}} 
+\index{Flight@{Flight}!\_s\_origin\_IATA@{\_s\_origin\_IATA}}
+\index{\_s\_origin\_IATA@{\_s\_origin\_IATA}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_s\_origin\_IATA}{\_s\_origin\_IATA}}
+{\footnotesize\ttfamily string Flight\+::\+\_\+s\+\_\+origin\+\_\+\+I\+A\+TA\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 68 of file Flight.\+h.
+
+\mbox{\Hypertarget{class_flight_aa7055aa3453928f4eda27ffb22e3a1e0}\label{class_flight_aa7055aa3453928f4eda27ffb22e3a1e0}} 
+\index{Flight@{Flight}!\_s\_year@{\_s\_year}}
+\index{\_s\_year@{\_s\_year}!Flight@{Flight}}
+\doxysubsubsection{\texorpdfstring{\_s\_year}{\_s\_year}}
+{\footnotesize\ttfamily string Flight\+::\+\_\+s\+\_\+year\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 66 of file Flight.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_flight_8h}{Flight.\+h}}\item 
+\mbox{\hyperlink{_flight_8cpp}{Flight.\+cpp}}\end{DoxyCompactItemize}

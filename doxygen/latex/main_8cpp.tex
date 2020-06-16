@@ -1,0 +1,294 @@
+\hypertarget{main_8cpp}{}\doxysection{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include $<$set$>$}\newline
+{\ttfamily \#include $<$list$>$}\newline
+{\ttfamily \#include \char`\"{}Flight.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Airport.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Airline.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Plane.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Route.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}utils.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+Include dependency graph for main.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{main_8cpp_a4b3feb2d0251ea4907aeadd60e140d94}{is\+Valid\+Char}} (const char \&x)
+\item 
+list$<$ string $>$ \mbox{\hyperlink{main_8cpp_ae8282f16bd813169b08d6f20d30c0c31}{sentence\+\_\+to\+\_\+list\+\_\+of\+\_\+words}} (const string \&s)
+\item 
+bool \mbox{\hyperlink{main_8cpp_ae83a8b637639bf4304ca8941db3d2dfe}{es\+Ruta\+Valida}} (const vector$<$ string $>$ \&vr, const map$<$ int, \mbox{\hyperlink{class_airport}{Airport}} $>$ \&m\+\_\+int\+\_\+airports, const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&m\+\_\+str\+\_\+airports\+\_\+\+I\+A\+TA, const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&m\+\_\+str\+\_\+airports\+\_\+\+I\+C\+AO, const map$<$ int, \mbox{\hyperlink{class_airline}{Airline}} $>$ \&m\+\_\+airlines, const map$<$ string, \mbox{\hyperlink{class_plane}{Plane}} $>$ \&m\+\_\+planes)
+\item 
+bool \mbox{\hyperlink{main_8cpp_adedf3007e221aded6bdde92f09319ed9}{es\+Vol\+Valid}} (const vector$<$ string $>$ \&vv, const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&m\+\_\+str\+\_\+airports\+\_\+\+I\+A\+TA, const map$<$ string, \mbox{\hyperlink{class_airline}{Airline}} $\ast$ $>$ \&m\+\_\+str\+\_\+airlines\+\_\+\+I\+A\+TA)
+\item 
+void \mbox{\hyperlink{main_8cpp_a32cf8373407562c4e8e3b0b89559afc7}{count\+Routes}} (const map$<$ int, \mbox{\hyperlink{class_airport}{Airport}} $>$ \&m\+\_\+int\+\_\+airports, const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&m\+\_\+str\+\_\+airports\+\_\+\+I\+A\+TA, const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&m\+\_\+str\+\_\+airports\+\_\+\+I\+C\+AO, const map$<$ int, \mbox{\hyperlink{class_airline}{Airline}} $>$ \&m\+\_\+airlines, const map$<$ string, \mbox{\hyperlink{class_plane}{Plane}} $>$ \&m\+\_\+planes, const list$<$ \mbox{\hyperlink{class_route}{Route}} $>$ \&l\+\_\+routes)
+\item 
+void \mbox{\hyperlink{main_8cpp_a8ab09479e16a8d55292b535d1f4a0804}{most\+Used\+Plane}} (const map$<$ int, \mbox{\hyperlink{class_airline}{Airline}} $>$ \&m\+\_\+airlines, const map$<$ string, \mbox{\hyperlink{class_plane}{Plane}} $>$ \&m\+\_\+planes, const list$<$ \mbox{\hyperlink{class_route}{Route}} $>$ \&l\+\_\+routes, string al\+\_\+\+I\+A\+TA)
+\item 
+void \mbox{\hyperlink{main_8cpp_a53846856d756a86bb4da95c0103a19da}{delay\+Airports}} (const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&m\+\_\+str\+\_\+airports\+\_\+\+I\+A\+TA, const multimap$<$ string, \mbox{\hyperlink{class_flight}{Flight}} $>$ \&mm\+\_\+flights\+\_\+\+D\+A\+TE, int n, string year, string month, string day, int opcio)
+\item 
+void \mbox{\hyperlink{main_8cpp_ac1dad46fcc0830babc169449fb0d6766}{delay\+Airlines}} (const map$<$ string, \mbox{\hyperlink{class_airline}{Airline}} $\ast$ $>$ \&m\+\_\+str\+\_\+airlines\+\_\+\+I\+A\+TA, const multimap$<$ string, \mbox{\hyperlink{class_flight}{Flight}} $\ast$ $>$ \&mm\+\_\+flights\+\_\+\+AL, int n, int opcio)
+\item 
+void \mbox{\hyperlink{main_8cpp_a9ffe7f118647d9bbf4cf516a65c96da7}{day\+With\+More\+Delays}} (const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&m\+\_\+str\+\_\+airports\+\_\+\+I\+A\+TA, const multimap$<$ string, \mbox{\hyperlink{class_flight}{Flight}} $>$ \&mm\+\_\+flights\+\_\+\+D\+A\+TE, const multimap$<$ string, \mbox{\hyperlink{class_flight}{Flight}} $\ast$ $>$ \&mm\+\_\+flights\+\_\+\+AL, const list$<$ string $>$ \&l\+\_\+airports\+\_\+\+I\+A\+TA)
+\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a32cf8373407562c4e8e3b0b89559afc7}\label{main_8cpp_a32cf8373407562c4e8e3b0b89559afc7}} 
+\index{main.cpp@{main.cpp}!countRoutes@{countRoutes}}
+\index{countRoutes@{countRoutes}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{countRoutes()}{countRoutes()}}
+{\footnotesize\ttfamily void count\+Routes (\begin{DoxyParamCaption}\item[{const map$<$ int, \mbox{\hyperlink{class_airport}{Airport}} $>$ \&}]{m\+\_\+int\+\_\+airports,  }\item[{const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&}]{m\+\_\+str\+\_\+airports\+\_\+\+I\+A\+TA,  }\item[{const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&}]{m\+\_\+str\+\_\+airports\+\_\+\+I\+C\+AO,  }\item[{const map$<$ int, \mbox{\hyperlink{class_airline}{Airline}} $>$ \&}]{m\+\_\+airlines,  }\item[{const map$<$ string, \mbox{\hyperlink{class_plane}{Plane}} $>$ \&}]{m\+\_\+planes,  }\item[{const list$<$ \mbox{\hyperlink{class_route}{Route}} $>$ \&}]{l\+\_\+routes }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Compta quantes rutes nacionals i internacionals te cada companyia aeria i ho mostra. 
+\end{DoxyPostcond}
+
+
+Definition at line 565 of file main.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{main_8cpp_a32cf8373407562c4e8e3b0b89559afc7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a9ffe7f118647d9bbf4cf516a65c96da7}\label{main_8cpp_a9ffe7f118647d9bbf4cf516a65c96da7}} 
+\index{main.cpp@{main.cpp}!dayWithMoreDelays@{dayWithMoreDelays}}
+\index{dayWithMoreDelays@{dayWithMoreDelays}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{dayWithMoreDelays()}{dayWithMoreDelays()}}
+{\footnotesize\ttfamily void day\+With\+More\+Delays (\begin{DoxyParamCaption}\item[{const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&}]{m\+\_\+str\+\_\+airports\+\_\+\+I\+A\+TA,  }\item[{const multimap$<$ string, \mbox{\hyperlink{class_flight}{Flight}} $>$ \&}]{mm\+\_\+flights\+\_\+\+D\+A\+TE,  }\item[{const multimap$<$ string, \mbox{\hyperlink{class_flight}{Flight}} $\ast$ $>$ \&}]{mm\+\_\+flights\+\_\+\+AL,  }\item[{const list$<$ string $>$ \&}]{l\+\_\+airports\+\_\+\+I\+A\+TA }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Dia amb mes retards tant de sortida com d\textquotesingle{}arribada en un subconjunt donat d\textquotesingle{}aeroports (conjunt buit per indicar tots els aeroports). En cas d\textquotesingle{}empat llista tots els dies amb retards maxims. 
+\end{DoxyPostcond}
+
+
+Definition at line 271 of file main.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{main_8cpp_a9ffe7f118647d9bbf4cf516a65c96da7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_ac1dad46fcc0830babc169449fb0d6766}\label{main_8cpp_ac1dad46fcc0830babc169449fb0d6766}} 
+\index{main.cpp@{main.cpp}!delayAirlines@{delayAirlines}}
+\index{delayAirlines@{delayAirlines}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{delayAirlines()}{delayAirlines()}}
+{\footnotesize\ttfamily void delay\+Airlines (\begin{DoxyParamCaption}\item[{const map$<$ string, \mbox{\hyperlink{class_airline}{Airline}} $\ast$ $>$ \&}]{m\+\_\+str\+\_\+airlines\+\_\+\+I\+A\+TA,  }\item[{const multimap$<$ string, \mbox{\hyperlink{class_flight}{Flight}} $\ast$ $>$ \&}]{mm\+\_\+flights\+\_\+\+AL,  }\item[{int}]{n,  }\item[{int}]{opcio }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+\textquotesingle{}opcio\textquotesingle{} es 1 si es vol la consulta \char`\"{}\+D\+E\+P\+A\+R\+T\+U\+R\+E D\+E\+L\+A\+Y A\+I\+R\+L\+I\+N\+E\+S\char`\"{} o 2 si es vol \char`\"{}\+A\+R\+R\+I\+V\+A\+L D\+E\+L\+A\+Y A\+I\+R\+L\+I\+N\+E\+S\char`\"{}. \textquotesingle{}n\textquotesingle{} $>$= 0. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Mostra el llistat ordenat de les \textquotesingle{}n\textquotesingle{} (0 per indicar tots) aerolinies amb mes retards de sortida/arribada (en funcio de \textquotesingle{}opcio\textquotesingle{}). 
+\end{DoxyPostcond}
+
+
+Definition at line 342 of file main.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{main_8cpp_ac1dad46fcc0830babc169449fb0d6766_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a53846856d756a86bb4da95c0103a19da}\label{main_8cpp_a53846856d756a86bb4da95c0103a19da}} 
+\index{main.cpp@{main.cpp}!delayAirports@{delayAirports}}
+\index{delayAirports@{delayAirports}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{delayAirports()}{delayAirports()}}
+{\footnotesize\ttfamily void delay\+Airports (\begin{DoxyParamCaption}\item[{const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&}]{m\+\_\+str\+\_\+airports\+\_\+\+I\+A\+TA,  }\item[{const multimap$<$ string, \mbox{\hyperlink{class_flight}{Flight}} $>$ \&}]{mm\+\_\+flights\+\_\+\+D\+A\+TE,  }\item[{int}]{n,  }\item[{string}]{year,  }\item[{string}]{month,  }\item[{string}]{day,  }\item[{int}]{opcio }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+\textquotesingle{}opcio\textquotesingle{} es 1 si es vol la consulta \char`\"{}\+D\+E\+P\+A\+R\+T\+U\+R\+E D\+E\+L\+A\+Y A\+I\+R\+P\+O\+R\+T\+S\char`\"{} o 2 si es vol \char`\"{}\+A\+R\+R\+I\+V\+A\+L D\+E\+L\+A\+Y A\+I\+R\+P\+O\+R\+T\+S\char`\"{}. \textquotesingle{}n\textquotesingle{} $>$= 0. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Mostra el llistat ordenat dels \textquotesingle{}n\textquotesingle{} (0 per indicar tots) aeroports amb mes retards de sortida/arribada (en funcio de \textquotesingle{}opcio\textquotesingle{}) en una data determinada. 
+\end{DoxyPostcond}
+
+
+Definition at line 418 of file main.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{main_8cpp_a53846856d756a86bb4da95c0103a19da_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_ae83a8b637639bf4304ca8941db3d2dfe}\label{main_8cpp_ae83a8b637639bf4304ca8941db3d2dfe}} 
+\index{main.cpp@{main.cpp}!esRutaValida@{esRutaValida}}
+\index{esRutaValida@{esRutaValida}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{esRutaValida()}{esRutaValida()}}
+{\footnotesize\ttfamily bool es\+Ruta\+Valida (\begin{DoxyParamCaption}\item[{const vector$<$ string $>$ \&}]{vr,  }\item[{const map$<$ int, \mbox{\hyperlink{class_airport}{Airport}} $>$ \&}]{m\+\_\+int\+\_\+airports,  }\item[{const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&}]{m\+\_\+str\+\_\+airports\+\_\+\+I\+A\+TA,  }\item[{const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&}]{m\+\_\+str\+\_\+airports\+\_\+\+I\+C\+AO,  }\item[{const map$<$ int, \mbox{\hyperlink{class_airline}{Airline}} $>$ \&}]{m\+\_\+airlines,  }\item[{const map$<$ string, \mbox{\hyperlink{class_plane}{Plane}} $>$ \&}]{m\+\_\+planes }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+\textquotesingle{}vr\textquotesingle{} es un vector que conte una ruta llegida del fitxer de rutes, amb el format correcte. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Diu si la ruta continguda al vector \textquotesingle{}vr\textquotesingle{} es valida o no. 
+\end{DoxyPostcond}
+
+
+Definition at line 643 of file main.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_ae83a8b637639bf4304ca8941db3d2dfe_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{main_8cpp_ae83a8b637639bf4304ca8941db3d2dfe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_adedf3007e221aded6bdde92f09319ed9}\label{main_8cpp_adedf3007e221aded6bdde92f09319ed9}} 
+\index{main.cpp@{main.cpp}!esVolValid@{esVolValid}}
+\index{esVolValid@{esVolValid}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{esVolValid()}{esVolValid()}}
+{\footnotesize\ttfamily bool es\+Vol\+Valid (\begin{DoxyParamCaption}\item[{const vector$<$ string $>$ \&}]{vv,  }\item[{const map$<$ string, \mbox{\hyperlink{class_airport}{Airport}} $\ast$ $>$ \&}]{m\+\_\+str\+\_\+airports\+\_\+\+I\+A\+TA,  }\item[{const map$<$ string, \mbox{\hyperlink{class_airline}{Airline}} $\ast$ $>$ \&}]{m\+\_\+str\+\_\+airlines\+\_\+\+I\+A\+TA }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+\textquotesingle{}vv\textquotesingle{} es un vector que conte un vol llegit del fitxer de vols, amb el format correcte. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Diu si el vol contingut al vector \textquotesingle{}vv\textquotesingle{} es valid o no. 
+\end{DoxyPostcond}
+
+
+Definition at line 508 of file main.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{main_8cpp_adedf3007e221aded6bdde92f09319ed9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a4b3feb2d0251ea4907aeadd60e140d94}\label{main_8cpp_a4b3feb2d0251ea4907aeadd60e140d94}} 
+\index{main.cpp@{main.cpp}!isValidChar@{isValidChar}}
+\index{isValidChar@{isValidChar}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{isValidChar()}{isValidChar()}}
+{\footnotesize\ttfamily bool is\+Valid\+Char (\begin{DoxyParamCaption}\item[{const char \&}]{x }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna T\+R\+UE si \textquotesingle{}x\textquotesingle{} es un numero o una lletra majuscula, F\+A\+L\+SE altrament. 
+\end{DoxyPostcond}
+
+
+Definition at line 713 of file main.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a4b3feb2d0251ea4907aeadd60e140d94_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 89 of file main.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a8ab09479e16a8d55292b535d1f4a0804}\label{main_8cpp_a8ab09479e16a8d55292b535d1f4a0804}} 
+\index{main.cpp@{main.cpp}!mostUsedPlane@{mostUsedPlane}}
+\index{mostUsedPlane@{mostUsedPlane}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{mostUsedPlane()}{mostUsedPlane()}}
+{\footnotesize\ttfamily void most\+Used\+Plane (\begin{DoxyParamCaption}\item[{const map$<$ int, \mbox{\hyperlink{class_airline}{Airline}} $>$ \&}]{m\+\_\+airlines,  }\item[{const map$<$ string, \mbox{\hyperlink{class_plane}{Plane}} $>$ \&}]{m\+\_\+planes,  }\item[{const list$<$ \mbox{\hyperlink{class_route}{Route}} $>$ \&}]{l\+\_\+routes,  }\item[{string}]{al\+\_\+\+I\+A\+TA }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Diu quin es l\textquotesingle{}avio mes utilitzat per una companyia donada a \textquotesingle{}al\+\_\+\+I\+A\+TA\textquotesingle{}. Mostra tots els mes utilitzats en cas d\textquotesingle{}empat. 
+\end{DoxyPostcond}
+
+
+Definition at line 515 of file main.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a8ab09479e16a8d55292b535d1f4a0804_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{main_8cpp_a8ab09479e16a8d55292b535d1f4a0804_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_ae8282f16bd813169b08d6f20d30c0c31}\label{main_8cpp_ae8282f16bd813169b08d6f20d30c0c31}} 
+\index{main.cpp@{main.cpp}!sentence\_to\_list\_of\_words@{sentence\_to\_list\_of\_words}}
+\index{sentence\_to\_list\_of\_words@{sentence\_to\_list\_of\_words}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{sentence\_to\_list\_of\_words()}{sentence\_to\_list\_of\_words()}}
+{\footnotesize\ttfamily list$<$ string $>$ sentence\+\_\+to\+\_\+list\+\_\+of\+\_\+words (\begin{DoxyParamCaption}\item[{const string \&}]{s }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna una llista amb totes les paraules que hi hagues a \textquotesingle{}s\textquotesingle{}, una paraula a cada posicio. 
+\end{DoxyPostcond}
+
+
+Definition at line 695 of file main.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=283pt]{main_8cpp_ae8282f16bd813169b08d6f20d30c0c31_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_ae8282f16bd813169b08d6f20d30c0c31_icgraph}
+\end{center}
+\end{figure}

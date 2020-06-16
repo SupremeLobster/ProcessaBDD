@@ -1,0 +1,247 @@
+\hypertarget{class_airline}{}\doxysection{Airline Class Reference}
+\label{class_airline}\index{Airline@{Airline}}
+
+
+{\ttfamily \#include $<$Airline.\+h$>$}
+
+
+
+Collaboration diagram for Airline\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{class_airline__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_airline_a3646b7cb1f7f1b5e5d91f9a7b91f3493}{Airline}} (const vector$<$ string $>$ \&v)
+\item 
+void \mbox{\hyperlink{class_airline_aa1899a60db1456d6780efc4fe6640440}{mostra}} () const
+\item 
+string \mbox{\hyperlink{class_airline_ab72b26541b18e8bc3115ada079712e15}{get\+\_\+name}} () const
+\item 
+string \mbox{\hyperlink{class_airline_a51b883582943cffad268872498e660c3}{get\+\_\+country}} () const
+\item 
+string \mbox{\hyperlink{class_airline_af049dfdb86b4359a9e929bef396e09ec}{get\+\_\+\+I\+A\+TA}} () const
+\item 
+string \mbox{\hyperlink{class_airline_aa5313c5664a817cc865336a9ff5bad6c}{get\+\_\+\+I\+C\+AO}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_airline_ab8c5058d9f104dfe2f89ebb076fd9e00}{a\+\_\+id}}
+\item 
+string \mbox{\hyperlink{class_airline_a25916ba0f7075fde218319286a0617b8}{a\+\_\+name}}
+\item 
+string \mbox{\hyperlink{class_airline_aa4a6c891c3ad557f73d570e325567ce6}{a\+\_\+alias}}
+\item 
+string \mbox{\hyperlink{class_airline_acfa328633af4291b668e89af096051ca}{a\+\_\+\+I\+A\+TA}}
+\item 
+string \mbox{\hyperlink{class_airline_a87660d821a6a8d94b7138983d0764b11}{a\+\_\+\+I\+C\+AO}}
+\item 
+string \mbox{\hyperlink{class_airline_a98018d41360e5a746e493c3db4193a02}{a\+\_\+callsign}}
+\item 
+string \mbox{\hyperlink{class_airline_a4d465e281914486507afd9db57db0aa3}{a\+\_\+country}}
+\item 
+char \mbox{\hyperlink{class_airline_a5ea6629fb20c5a0cf8c916ff3b100650}{a\+\_\+active}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 13 of file Airline.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_airline_a3646b7cb1f7f1b5e5d91f9a7b91f3493}\label{class_airline_a3646b7cb1f7f1b5e5d91f9a7b91f3493}} 
+\index{Airline@{Airline}!Airline@{Airline}}
+\index{Airline@{Airline}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{Airline()}{Airline()}}
+{\footnotesize\ttfamily Airline\+::\+Airline (\begin{DoxyParamCaption}\item[{const vector$<$ string $>$ \&}]{v }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+El vector conte les dades d\textquotesingle{}una aerolinia amb el format correcte. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Crea una nova aerolinia a partir de les dades contingudes en el vector. 
+\end{DoxyPostcond}
+
+
+Definition at line 7 of file Airline.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_airline_a51b883582943cffad268872498e660c3}\label{class_airline_a51b883582943cffad268872498e660c3}} 
+\index{Airline@{Airline}!get\_country@{get\_country}}
+\index{get\_country@{get\_country}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{get\_country()}{get\_country()}}
+{\footnotesize\ttfamily string Airline\+::get\+\_\+country (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el pais d\textquotesingle{}aquesta aerolinia. 
+\end{DoxyPostcond}
+
+
+Definition at line 31 of file Airline.\+cpp.
+
+\mbox{\Hypertarget{class_airline_af049dfdb86b4359a9e929bef396e09ec}\label{class_airline_af049dfdb86b4359a9e929bef396e09ec}} 
+\index{Airline@{Airline}!get\_IATA@{get\_IATA}}
+\index{get\_IATA@{get\_IATA}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{get\_IATA()}{get\_IATA()}}
+{\footnotesize\ttfamily string Airline\+::get\+\_\+\+I\+A\+TA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el codi I\+A\+TA d\textquotesingle{}aquesta aerolinia. 
+\end{DoxyPostcond}
+
+
+Definition at line 36 of file Airline.\+cpp.
+
+\mbox{\Hypertarget{class_airline_aa5313c5664a817cc865336a9ff5bad6c}\label{class_airline_aa5313c5664a817cc865336a9ff5bad6c}} 
+\index{Airline@{Airline}!get\_ICAO@{get\_ICAO}}
+\index{get\_ICAO@{get\_ICAO}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{get\_ICAO()}{get\_ICAO()}}
+{\footnotesize\ttfamily string Airline\+::get\+\_\+\+I\+C\+AO (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el codi I\+C\+AO d\textquotesingle{}aquesta aerolinia. 
+\end{DoxyPostcond}
+
+
+Definition at line 41 of file Airline.\+cpp.
+
+\mbox{\Hypertarget{class_airline_ab72b26541b18e8bc3115ada079712e15}\label{class_airline_ab72b26541b18e8bc3115ada079712e15}} 
+\index{Airline@{Airline}!get\_name@{get\_name}}
+\index{get\_name@{get\_name}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{get\_name()}{get\_name()}}
+{\footnotesize\ttfamily string Airline\+::get\+\_\+name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el nom d\textquotesingle{}aquesta aerolinia. 
+\end{DoxyPostcond}
+
+
+Definition at line 26 of file Airline.\+cpp.
+
+\mbox{\Hypertarget{class_airline_aa1899a60db1456d6780efc4fe6640440}\label{class_airline_aa1899a60db1456d6780efc4fe6640440}} 
+\index{Airline@{Airline}!mostra@{mostra}}
+\index{mostra@{mostra}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{mostra()}{mostra()}}
+{\footnotesize\ttfamily void Airline\+::mostra (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Mostra el nom i el pais d\textquotesingle{}aquesta aerolinia. 
+\end{DoxyPostcond}
+
+
+Definition at line 21 of file Airline.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_airline_a5ea6629fb20c5a0cf8c916ff3b100650}\label{class_airline_a5ea6629fb20c5a0cf8c916ff3b100650}} 
+\index{Airline@{Airline}!a\_active@{a\_active}}
+\index{a\_active@{a\_active}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{a\_active}{a\_active}}
+{\footnotesize\ttfamily char Airline\+::a\+\_\+active\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 55 of file Airline.\+h.
+
+\mbox{\Hypertarget{class_airline_aa4a6c891c3ad557f73d570e325567ce6}\label{class_airline_aa4a6c891c3ad557f73d570e325567ce6}} 
+\index{Airline@{Airline}!a\_alias@{a\_alias}}
+\index{a\_alias@{a\_alias}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{a\_alias}{a\_alias}}
+{\footnotesize\ttfamily string Airline\+::a\+\_\+alias\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 54 of file Airline.\+h.
+
+\mbox{\Hypertarget{class_airline_a98018d41360e5a746e493c3db4193a02}\label{class_airline_a98018d41360e5a746e493c3db4193a02}} 
+\index{Airline@{Airline}!a\_callsign@{a\_callsign}}
+\index{a\_callsign@{a\_callsign}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{a\_callsign}{a\_callsign}}
+{\footnotesize\ttfamily string Airline\+::a\+\_\+callsign\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 54 of file Airline.\+h.
+
+\mbox{\Hypertarget{class_airline_a4d465e281914486507afd9db57db0aa3}\label{class_airline_a4d465e281914486507afd9db57db0aa3}} 
+\index{Airline@{Airline}!a\_country@{a\_country}}
+\index{a\_country@{a\_country}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{a\_country}{a\_country}}
+{\footnotesize\ttfamily string Airline\+::a\+\_\+country\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 54 of file Airline.\+h.
+
+\mbox{\Hypertarget{class_airline_acfa328633af4291b668e89af096051ca}\label{class_airline_acfa328633af4291b668e89af096051ca}} 
+\index{Airline@{Airline}!a\_IATA@{a\_IATA}}
+\index{a\_IATA@{a\_IATA}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{a\_IATA}{a\_IATA}}
+{\footnotesize\ttfamily string Airline\+::a\+\_\+\+I\+A\+TA\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 54 of file Airline.\+h.
+
+\mbox{\Hypertarget{class_airline_a87660d821a6a8d94b7138983d0764b11}\label{class_airline_a87660d821a6a8d94b7138983d0764b11}} 
+\index{Airline@{Airline}!a\_ICAO@{a\_ICAO}}
+\index{a\_ICAO@{a\_ICAO}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{a\_ICAO}{a\_ICAO}}
+{\footnotesize\ttfamily string Airline\+::a\+\_\+\+I\+C\+AO\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 54 of file Airline.\+h.
+
+\mbox{\Hypertarget{class_airline_ab8c5058d9f104dfe2f89ebb076fd9e00}\label{class_airline_ab8c5058d9f104dfe2f89ebb076fd9e00}} 
+\index{Airline@{Airline}!a\_id@{a\_id}}
+\index{a\_id@{a\_id}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{a\_id}{a\_id}}
+{\footnotesize\ttfamily int Airline\+::a\+\_\+id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 53 of file Airline.\+h.
+
+\mbox{\Hypertarget{class_airline_a25916ba0f7075fde218319286a0617b8}\label{class_airline_a25916ba0f7075fde218319286a0617b8}} 
+\index{Airline@{Airline}!a\_name@{a\_name}}
+\index{a\_name@{a\_name}!Airline@{Airline}}
+\doxysubsubsection{\texorpdfstring{a\_name}{a\_name}}
+{\footnotesize\ttfamily string Airline\+::a\+\_\+name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 54 of file Airline.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_airline_8h}{Airline.\+h}}\item 
+\mbox{\hyperlink{_airline_8cpp}{Airline.\+cpp}}\end{DoxyCompactItemize}

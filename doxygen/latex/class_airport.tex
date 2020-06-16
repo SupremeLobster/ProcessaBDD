@@ -1,0 +1,301 @@
+\hypertarget{class_airport}{}\doxysection{Airport Class Reference}
+\label{class_airport}\index{Airport@{Airport}}
+
+
+{\ttfamily \#include $<$Airport.\+h$>$}
+
+
+
+Collaboration diagram for Airport\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_airport__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_airport_ae0d0848773e183e87b084f0bffd63461}{Airport}} (const vector$<$ string $>$ \&v)
+\item 
+void \mbox{\hyperlink{class_airport_a4df1ac2135bab22da46693fe61f22ab8}{mostra}} () const
+\item 
+string \mbox{\hyperlink{class_airport_a5828a1a9e3fb731634de4aa67aaa4142}{get\+\_\+country}} () const
+\item 
+string \mbox{\hyperlink{class_airport_ac33fe90defa1fe4a6ecbe85d1f99dcab}{get\+\_\+\+I\+A\+TA}} () const
+\item 
+string \mbox{\hyperlink{class_airport_a2fc94e41895ecbe8baadefcc8705c5cc}{get\+\_\+\+I\+C\+AO}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_airport_a43d0dd73def66ec665c7ae811a89aec7}{a\+\_\+id}}
+\item 
+string \mbox{\hyperlink{class_airport_a05e33d5ad937751c71d418825dc2f651}{a\+\_\+name}}
+\item 
+string \mbox{\hyperlink{class_airport_a170f19103d2a6162798e5f1c4cc11247}{a\+\_\+city}}
+\item 
+string \mbox{\hyperlink{class_airport_aaa61ecc1bdb5c8945cde09f2a1f29908}{a\+\_\+country}}
+\item 
+string \mbox{\hyperlink{class_airport_a551f5c927bb656eb4f13ce7148e52d4d}{a\+\_\+\+I\+A\+TA}}
+\item 
+string \mbox{\hyperlink{class_airport_a7956ee608bb273b32cd67335fe981e90}{a\+\_\+\+I\+C\+AO}}
+\item 
+double \mbox{\hyperlink{class_airport_ab5ffbfafd69f52eaaa8b65275a429664}{a\+\_\+lat}}
+\item 
+double \mbox{\hyperlink{class_airport_ab714d7e0de33c99103aebde9f488772c}{a\+\_\+long}}
+\item 
+int \mbox{\hyperlink{class_airport_a1c6cb3f8a42b03960cdd12120b618280}{a\+\_\+alt}}
+\item 
+float \mbox{\hyperlink{class_airport_a9be535d2d101e0fedd642ca60fcd8bad}{a\+\_\+timezone}}
+\item 
+char \mbox{\hyperlink{class_airport_a561e4e8f3c920fbbe2f7527d583d53db}{a\+\_\+\+D\+ST}}
+\item 
+string \mbox{\hyperlink{class_airport_acf9f909977882ddfa46ffdf5108f9b4b}{a\+\_\+\+TZ}}
+\item 
+string \mbox{\hyperlink{class_airport_a2bf266610bbac8f673c14b0308eadac8}{a\+\_\+type}}
+\item 
+string \mbox{\hyperlink{class_airport_a8b3030e9200ec2159a7479ad7194f0e6}{a\+\_\+source}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file Airport.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_airport_ae0d0848773e183e87b084f0bffd63461}\label{class_airport_ae0d0848773e183e87b084f0bffd63461}} 
+\index{Airport@{Airport}!Airport@{Airport}}
+\index{Airport@{Airport}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{Airport()}{Airport()}}
+{\footnotesize\ttfamily Airport\+::\+Airport (\begin{DoxyParamCaption}\item[{const vector$<$ string $>$ \&}]{v }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+El vector conte les dades d\textquotesingle{}un aeroport amb el format correcte. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Crea un nou aeroport a partir de les dades contingudes en el vector. 
+\end{DoxyPostcond}
+
+
+Definition at line 7 of file Airport.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_airport_a5828a1a9e3fb731634de4aa67aaa4142}\label{class_airport_a5828a1a9e3fb731634de4aa67aaa4142}} 
+\index{Airport@{Airport}!get\_country@{get\_country}}
+\index{get\_country@{get\_country}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{get\_country()}{get\_country()}}
+{\footnotesize\ttfamily string Airport\+::get\+\_\+country (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el pais d\textquotesingle{}aquest aeroport. 
+\end{DoxyPostcond}
+
+
+Definition at line 42 of file Airport.\+cpp.
+
+\mbox{\Hypertarget{class_airport_ac33fe90defa1fe4a6ecbe85d1f99dcab}\label{class_airport_ac33fe90defa1fe4a6ecbe85d1f99dcab}} 
+\index{Airport@{Airport}!get\_IATA@{get\_IATA}}
+\index{get\_IATA@{get\_IATA}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{get\_IATA()}{get\_IATA()}}
+{\footnotesize\ttfamily string Airport\+::get\+\_\+\+I\+A\+TA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el codi I\+A\+TA d\textquotesingle{}aquest aeroport. 
+\end{DoxyPostcond}
+
+
+Definition at line 47 of file Airport.\+cpp.
+
+\mbox{\Hypertarget{class_airport_a2fc94e41895ecbe8baadefcc8705c5cc}\label{class_airport_a2fc94e41895ecbe8baadefcc8705c5cc}} 
+\index{Airport@{Airport}!get\_ICAO@{get\_ICAO}}
+\index{get\_ICAO@{get\_ICAO}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{get\_ICAO()}{get\_ICAO()}}
+{\footnotesize\ttfamily string Airport\+::get\+\_\+\+I\+C\+AO (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Retorna el codi I\+C\+AO d\textquotesingle{}aquest aeroport. 
+\end{DoxyPostcond}
+
+
+Definition at line 52 of file Airport.\+cpp.
+
+\mbox{\Hypertarget{class_airport_a4df1ac2135bab22da46693fe61f22ab8}\label{class_airport_a4df1ac2135bab22da46693fe61f22ab8}} 
+\index{Airport@{Airport}!mostra@{mostra}}
+\index{mostra@{mostra}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{mostra()}{mostra()}}
+{\footnotesize\ttfamily void Airport\+::mostra (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Mostra el nom, la ciutat i el pais d\textquotesingle{}aquest aeroport. 
+\end{DoxyPostcond}
+
+
+Definition at line 37 of file Airport.\+cpp.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_airport_a1c6cb3f8a42b03960cdd12120b618280}\label{class_airport_a1c6cb3f8a42b03960cdd12120b618280}} 
+\index{Airport@{Airport}!a\_alt@{a\_alt}}
+\index{a\_alt@{a\_alt}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_alt}{a\_alt}}
+{\footnotesize\ttfamily int Airport\+::a\+\_\+alt\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 51 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_a170f19103d2a6162798e5f1c4cc11247}\label{class_airport_a170f19103d2a6162798e5f1c4cc11247}} 
+\index{Airport@{Airport}!a\_city@{a\_city}}
+\index{a\_city@{a\_city}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_city}{a\_city}}
+{\footnotesize\ttfamily string Airport\+::a\+\_\+city\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 49 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_aaa61ecc1bdb5c8945cde09f2a1f29908}\label{class_airport_aaa61ecc1bdb5c8945cde09f2a1f29908}} 
+\index{Airport@{Airport}!a\_country@{a\_country}}
+\index{a\_country@{a\_country}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_country}{a\_country}}
+{\footnotesize\ttfamily string Airport\+::a\+\_\+country\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 49 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_a561e4e8f3c920fbbe2f7527d583d53db}\label{class_airport_a561e4e8f3c920fbbe2f7527d583d53db}} 
+\index{Airport@{Airport}!a\_DST@{a\_DST}}
+\index{a\_DST@{a\_DST}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_DST}{a\_DST}}
+{\footnotesize\ttfamily char Airport\+::a\+\_\+\+D\+ST\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 53 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_a551f5c927bb656eb4f13ce7148e52d4d}\label{class_airport_a551f5c927bb656eb4f13ce7148e52d4d}} 
+\index{Airport@{Airport}!a\_IATA@{a\_IATA}}
+\index{a\_IATA@{a\_IATA}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_IATA}{a\_IATA}}
+{\footnotesize\ttfamily string Airport\+::a\+\_\+\+I\+A\+TA\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 49 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_a7956ee608bb273b32cd67335fe981e90}\label{class_airport_a7956ee608bb273b32cd67335fe981e90}} 
+\index{Airport@{Airport}!a\_ICAO@{a\_ICAO}}
+\index{a\_ICAO@{a\_ICAO}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_ICAO}{a\_ICAO}}
+{\footnotesize\ttfamily string Airport\+::a\+\_\+\+I\+C\+AO\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 49 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_a43d0dd73def66ec665c7ae811a89aec7}\label{class_airport_a43d0dd73def66ec665c7ae811a89aec7}} 
+\index{Airport@{Airport}!a\_id@{a\_id}}
+\index{a\_id@{a\_id}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_id}{a\_id}}
+{\footnotesize\ttfamily int Airport\+::a\+\_\+id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 48 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_ab5ffbfafd69f52eaaa8b65275a429664}\label{class_airport_ab5ffbfafd69f52eaaa8b65275a429664}} 
+\index{Airport@{Airport}!a\_lat@{a\_lat}}
+\index{a\_lat@{a\_lat}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_lat}{a\_lat}}
+{\footnotesize\ttfamily double Airport\+::a\+\_\+lat\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 50 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_ab714d7e0de33c99103aebde9f488772c}\label{class_airport_ab714d7e0de33c99103aebde9f488772c}} 
+\index{Airport@{Airport}!a\_long@{a\_long}}
+\index{a\_long@{a\_long}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_long}{a\_long}}
+{\footnotesize\ttfamily double Airport\+::a\+\_\+long\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 50 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_a05e33d5ad937751c71d418825dc2f651}\label{class_airport_a05e33d5ad937751c71d418825dc2f651}} 
+\index{Airport@{Airport}!a\_name@{a\_name}}
+\index{a\_name@{a\_name}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_name}{a\_name}}
+{\footnotesize\ttfamily string Airport\+::a\+\_\+name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 49 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_a8b3030e9200ec2159a7479ad7194f0e6}\label{class_airport_a8b3030e9200ec2159a7479ad7194f0e6}} 
+\index{Airport@{Airport}!a\_source@{a\_source}}
+\index{a\_source@{a\_source}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_source}{a\_source}}
+{\footnotesize\ttfamily string Airport\+::a\+\_\+source\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 54 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_a9be535d2d101e0fedd642ca60fcd8bad}\label{class_airport_a9be535d2d101e0fedd642ca60fcd8bad}} 
+\index{Airport@{Airport}!a\_timezone@{a\_timezone}}
+\index{a\_timezone@{a\_timezone}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_timezone}{a\_timezone}}
+{\footnotesize\ttfamily float Airport\+::a\+\_\+timezone\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 52 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_a2bf266610bbac8f673c14b0308eadac8}\label{class_airport_a2bf266610bbac8f673c14b0308eadac8}} 
+\index{Airport@{Airport}!a\_type@{a\_type}}
+\index{a\_type@{a\_type}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_type}{a\_type}}
+{\footnotesize\ttfamily string Airport\+::a\+\_\+type\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 54 of file Airport.\+h.
+
+\mbox{\Hypertarget{class_airport_acf9f909977882ddfa46ffdf5108f9b4b}\label{class_airport_acf9f909977882ddfa46ffdf5108f9b4b}} 
+\index{Airport@{Airport}!a\_TZ@{a\_TZ}}
+\index{a\_TZ@{a\_TZ}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{a\_TZ}{a\_TZ}}
+{\footnotesize\ttfamily string Airport\+::a\+\_\+\+TZ\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 54 of file Airport.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_airport_8h}{Airport.\+h}}\item 
+\mbox{\hyperlink{_airport_8cpp}{Airport.\+cpp}}\end{DoxyCompactItemize}

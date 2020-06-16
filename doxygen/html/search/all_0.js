@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['_5fb_5fcancelled_0',['_b_cancelled',['../class_flight.html#accf2d694581092b6e3ca8ebe45a88a13',1,'Flight']]],
+  ['_5ff_5factual_5felapsed_1',['_f_ACTUAL_elapsed',['../class_flight.html#a512b976cd87d988872ef3d80dc065134',1,'Flight']]],
+  ['_5ff_5farr_5fdelay_2',['_f_arr_DELAY',['../class_flight.html#a92d71a1319e1468a0cba6905a93a2c36',1,'Flight']]],
+  ['_5ff_5fcrs_5felapsed_3',['_f_CRS_elapsed',['../class_flight.html#a2dccebe22de780b8ad21e61cf4b3d3f0',1,'Flight']]],
+  ['_5ff_5fdept_5fdelay_4',['_f_dept_DELAY',['../class_flight.html#a4853a30b5c717867b910782721b9b256',1,'Flight']]],
+  ['_5ff_5fdistance_5',['_f_distance',['../class_flight.html#a9d8a5de604b09b82e916eccbae5c49eb',1,'Flight']]],
+  ['_5fi_5factual_5farr_6',['_i_ACTUAL_arr',['../class_flight.html#a90cb38dce27f8533efc3d5815b4ff2bc',1,'Flight']]],
+  ['_5fi_5factual_5fdept_7',['_i_ACTUAL_dept',['../class_flight.html#aa7f1e8040fccced9c7e1463c064895ea',1,'Flight']]],
+  ['_5fi_5fcrs_5farr_8',['_i_CRS_arr',['../class_flight.html#af8e4719a18955b968c70086903ac2913',1,'Flight']]],
+  ['_5fi_5fcrs_5fdept_9',['_i_CRS_dept',['../class_flight.html#ab97d3e56368e8ad13e8aa468ae555668',1,'Flight']]],
+  ['_5fi_5fop_5fcarrier_5ffl_5fnum_10',['_i_op_carrier_fl_num',['../class_flight.html#a170f1a617d29e9dd0f3cb44a918ff542',1,'Flight']]],
+  ['_5fs_5fday_5fof_5fmonth_11',['_s_day_of_month',['../class_flight.html#ae6068597ab8d6f5417ce617c436bbfce',1,'Flight']]],
+  ['_5fs_5fday_5fof_5fweek_12',['_s_day_of_week',['../class_flight.html#a8845db6e31fb0692abb4a477c2d57813',1,'Flight']]],
+  ['_5fs_5fdest_5fcity_13',['_s_dest_CITY',['../class_flight.html#a82b7ed57500229380b7ffe2f1178bf8a',1,'Flight']]],
+  ['_5fs_5fdest_5fiata_14',['_s_dest_IATA',['../class_flight.html#ab44794c76a860b501cf617ebcee8cd45',1,'Flight']]],
+  ['_5fs_5fmonth_15',['_s_month',['../class_flight.html#a179494f7a8386b60dad98a3b9bf44e6e',1,'Flight']]],
+  ['_5fs_5fop_5fcarrier_5fiata_16',['_s_op_carrier_IATA',['../class_flight.html#ad8f338051c73b8f48e1247f4b603cb92',1,'Flight']]],
+  ['_5fs_5forigin_5fcity_17',['_s_origin_CITY',['../class_flight.html#a54635e1e2f7f9a5430c80eb25e87750c',1,'Flight']]],
+  ['_5fs_5forigin_5fiata_18',['_s_origin_IATA',['../class_flight.html#a91cf08c795a00733660b30527f0c15c9',1,'Flight']]],
+  ['_5fs_5fyear_19',['_s_year',['../class_flight.html#aa7055aa3453928f4eda27ffb22e3a1e0',1,'Flight']]]
+];

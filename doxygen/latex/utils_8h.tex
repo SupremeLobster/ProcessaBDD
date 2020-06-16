@@ -1,0 +1,73 @@
+\hypertarget{utils_8h}{}\doxysection{utils.\+h File Reference}
+\label{utils_8h}\index{utils.h@{utils.h}}
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for utils.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=123pt]{utils_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=269pt]{utils_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{utils_8h_a2d2f12bc80cefdb695b93233589d84bc}{open\+File}} (ifstream \&f, const string \&filename)
+\item 
+vector$<$ string $>$ \mbox{\hyperlink{utils_8h_a30eb73c06b56fff7315b74b4d7c7e91d}{get\+Next\+Line\+And\+Split\+Into\+Tokens}} (istream \&str)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{utils_8h_a30eb73c06b56fff7315b74b4d7c7e91d}\label{utils_8h_a30eb73c06b56fff7315b74b4d7c7e91d}} 
+\index{utils.h@{utils.h}!getNextLineAndSplitIntoTokens@{getNextLineAndSplitIntoTokens}}
+\index{getNextLineAndSplitIntoTokens@{getNextLineAndSplitIntoTokens}!utils.h@{utils.h}}
+\doxysubsubsection{\texorpdfstring{getNextLineAndSplitIntoTokens()}{getNextLineAndSplitIntoTokens()}}
+{\footnotesize\ttfamily vector$<$string$>$ get\+Next\+Line\+And\+Split\+Into\+Tokens (\begin{DoxyParamCaption}\item[{istream \&}]{str }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+str is a stream in C\+SV format 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+reads and returns the fields in the first line of str removing quotes if any 
+\end{DoxyPostcond}
+
+
+Definition at line 23 of file utils.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{utils_8h_a30eb73c06b56fff7315b74b4d7c7e91d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{utils_8h_a2d2f12bc80cefdb695b93233589d84bc}\label{utils_8h_a2d2f12bc80cefdb695b93233589d84bc}} 
+\index{utils.h@{utils.h}!openFile@{openFile}}
+\index{openFile@{openFile}!utils.h@{utils.h}}
+\doxysubsubsection{\texorpdfstring{openFile()}{openFile()}}
+{\footnotesize\ttfamily void open\+File (\begin{DoxyParamCaption}\item[{ifstream \&}]{f,  }\item[{const string \&}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyPrecond}{Precondition}
+Cert. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Opens and attaches file filename to stream f 
+\end{DoxyPostcond}
+
+
+Definition at line 13 of file utils.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{utils_8h_a2d2f12bc80cefdb695b93233589d84bc_icgraph}
+\end{center}
+\end{figure}

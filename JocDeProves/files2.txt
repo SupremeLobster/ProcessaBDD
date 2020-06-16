@@ -1,0 +1,6 @@
+/u/prof/u2001239/eda/p1/data/openflights/airports.dat
+/u/prof/u2001239/eda/p1/data/openflights/airlines.dat
+/u/prof/u2001239/eda/p1/data/openflights/planes.dat
+/u/prof/u2001239/eda/p1/data/openflights/routes.dat
+/data/u/prof/u2001239/eda/p1/data/472598099_T_ONTIME_REPORTING/T_ONTIME_REPORTING_2019_6.csv
+/u/alum/u1956231/eda/p1/JocDeProves/Queries/queries2.txt

@@ -1,0 +1,1055 @@
+Loading airports...
+Loading airlines...
+Loading planes...
+Loading routes...
+Loading flights...
+Processing queries...
+--------------------------------------------------------------------------------
+Query: COUNT ROUTES
+
+  NAT. INTL.  AIRLINE
+     0     8  ALAK
+     3     0  Abaet
+     0    47  Abu Dhabi Amiri Flight
+     0    40  Adria Airways
+    54   136  Aegean Airlines
+     2   222  Aer Lingus
+     0    20  Aereonautica militare
+     0    58  Aero Condor Peru
+     0    14  Aero Lanka
+    40   201  AeroMéxico
+     0    42  Aerocondor
+   164   308  Aeroflot Russian Airlines
+    20     2  Aeroflot-Nord
+     8     6  Aerolane
+   103    51  Aerolineas Argentinas
+     6     6  Aerolineas Galapagos (Aerogal)
+    28     2  Aeromar
+     0    18  Aeroper
+     5    31  Afriqiyah Airways
+     0    64  Aigle Azur
+    86   146  Air Algerie
+     2    22  Air Antilles Express
+     0   130  Air Arabia
+     0    10  Air Arabia Egypt
+     0    44  Air Arabia Maroc
+     0    16  Air Armenia
+    38    80  Air Astana
+     0     8  Air Atlanta Icelandic
+     0    24  Air Austral
+     0    29  Air Bagan
+     0    62  Air Baltic
+     0    44  Air Bangladesh
+    44   745  Air Berlin
+     2     8  Air Bosna
+     8    16  Air Botswana
+     0   210  Air Bourbon
+     0     8  Air Burkina
+     0    28  Air Busan
+     0    22  Air Caledonie International
+   203   363  Air Canada
+     0    26  Air Caraïbes
+   919   316  Air China
+     0    10  Air Dolomiti
+    77    69  Air Europa
+     0     2  Air Europe
+     0    32  Air Florida
+     0   276  Air Foyle
+   110   767  Air France
+     0    23  Air Greenland
+    19    57  Air India Express
+   221   169  Air India Limited
+     0     2  Air Italy
+     0     8  Air Koryo
+     0    12  Air Lituanica
+     0    56  Air Macau
+    42    33  Air Madagascar
+     0    84  Air Malta
+    22     0  Air Mandalay
+     2    41  Air Mauritius
+     0    38  Air Moldova
+    36    18  Air Mozambique
+     0     8  Air Namibia
+   104   125  Air New Zealand
+     0     6  Air Nippon
+    46    26  Air Niugini
+    13     0  Air North Charter - Canada
+    24    54  Air One
+    28     8  Air Pacific
+    32     2  Air Philippines
+    11     2  Air Rarotonga
+   106     0  Air Sahara
+     0     6  Air Saint Pierre
+     0     2  Air Salone
+     0    77  Air Serbia
+     2     8  Air Seychelles
+     0    26  Air Sicilia
+     0     2  Air Sinai
+    91     2  Air Tahiti
+     0    11  Air Tahiti Nui
+     0    10  Air Tindi
+     8   130  Air Transat
+    80    12  Air Vanuatu
+     6     6  Air Zimbabwe
+    72   108  AirAsia
+     0    36  AirAsia X
+   144    47  AirTran Airways
+    42     2  Aircompany Yakutia
+   102    30  Airlinair
+     0    34  Airlines Of Tasmania
+     1     2  Airlines PNG
+    31     2  Airnorth
+     0    32  AlMasria Universal Airlines
+     0   277  Alaska Airlines
+     2     0  Alaska Central Express
+     2     0  Alaska Seaplane Service
+     0     4  Albanian Airlines
+    62   646  Alitalia
+     0    10  All America
+   207   276  All Nippon Airways
+    94     0  Allegiant Air
+    30     0  Alrosa Mirny Air Enterprise
+   949   899  American Airlines
+     0    12  Amerijet International
+     0     4  Apache Air
+     4    18  Ariana Afghan Airlines
+     0    22  Arik Niger
+     0    24  Arkefly
+     8    12  Arkia Israel Airlines
+     0     8  Arrow Air
+     0     4  Asia Wings
+     0     6  Asian Wings Airways
+     0   254  Asiana Airlines
+     0     2  Askari Aviation
+     0    28  Astrakhan Airlines
+     0     4  Astral Aviation
+     0    30  Atlant-Soyuz Airlines
+     5     0  Atlantic Air Cargo
+     0     9  Atlantic Airways
+     0     4  Atlantis European Airways
+    10    22  Atlasjet
+     0    20  Aurigny Air Services
+    10   216  Austrian Airlines
+     0   286  Avianca - Aerovias Nacionales de Colombia
+     0     2  Avient Aviation
+     2    52  Azerbaijan Airlines
+   397     0  Azul
+     0    18  BQB Lineas Aereas
+     0    72  BRA-Transportes Aereos
+     0     6  BVI Airways
+     0    16  Bahamasair
+     0    33  Baikotovitchestrian Airlines 
+    28    47  Bangkok Airways
+     0    12  Belair Airlines
+     0    44  Belavia Belarusian Airlines
+     7     0  Bering Air
+     2     2  Berjaya Air
+     0    36  Big Sky Airlines
+     0    25  Biman Bangladesh Airlines
+    24    22  Binter Canarias
+     0   102  Birmingham European
+    16    33  Blue Panorama Airlines
+     2     0  Boutique Air (Priv)
+    26   517  British Airways
+     0   186  Brussels Airlines
+     6    50  Bulgaria Air
+     2    10  BusinessAir
+     0    20  CAL Cargo Air Lines
+     8    17  Camair-co
+     4    18  Cambodia Angkor Air (K6)
+     0     4  Cameroon Airlines
+     0    10  Canadian National Airways
+    22     0  Canadian North
+     0     4  Cape Air
+     0   130  Cargo Plus Aviation
+     0    21  Cargoitalia
+     2    62  Caribbean Airlines
+     0     6  Carpatair
+     0   212  Cathay Pacific
+     0    62  Caucasus Airlines
+     6    17  Cayman Airways
+   116    68  Cebu Pacific
+     0    46  Changan Airlines
+     0     8  Chicago Express
+     0   168  China Airlines
+   924   297  China Eastern Airlines
+   124    31  China SSS
+  1158   278  China Southern Airlines
+    98     0  China United
+     0    58  Ciel Canadien
+    54     4  Citilink Indonesia
+     2     4  City Airways
+     0   330  City Connexion Airlines
+     0    30  CityJet
+    14     0  Comair
+     0    22  Comores Airlines
+     0     4  Compagnie Africaine d\\'Aviation
+     0   185  Condor Flugdienst
+    48    18  Conviasa
+     0   184  Copa Airlines
+     0    30  Corsairfly
+    36     6  Corse-Mediterranee
+    22    90  Croatia Airlines
+    11    39  Cubana de Aviación
+     0    31  Cyprus Airways
+     0    34  Cyprus Turkish Airlines
+     2   107  Czech Airlines
+     6    10  DAT Danish Air Transport
+     0     6  Daallo Airlines
+   770   463  Delta Air Lines
+     0    13  Dennis Sky
+     0    96  Dragonair
+     0    20  Druk Air
+     0   114  EVA Air
+     0    12  Eagle Atlantic Airlines
+     0     4  East African
+     6    16  Eastar Jet
+    24     6  Eastern Airways
+    22   179  Egyptair
+     0    73  El Al Israel Airlines
+     0   275  Emirates
+     0    76  Empresa Ecuatoriana De Aviacion
+    22     0  Era Alaska
+     0    26  Estonian Air
+     0   170  Ethiopian Airlines
+     0   210  Etihad Airways
+     6    30  Eurolot
+     0     8  Excel Airways
+     0    12  Express One International
+     0     8  Far Eastern Air Transport
+    30   276  Finnair
+    22    18  Firefly
+    54     0  First Air
+     0     8  Flightlink Tanzania
+     0     2  Fly 6ix
+     0     2  Fly Colombia ( Interliging Flights )
+     0     5  Fly One
+     0     4  FlyNordic
+     4    34  Flybaboo
+   109   152  Flybe
+     0   384  Formosa Airlines
+   150    42  Frontier Airlines
+    18     0  Fuji Dream Airlines
+     0     2  Gabon Airlines
+   150    92  Garuda Indonesia
+    18     2  Gazpromavia
+     0    28  Genesis
+     0    12  Georgian Airways
+     0     6  Georgian National Airlines
+     2    94  Germania
+    14   292  Germanwings
+    77     0  Go Air
+    20     0  Golden Air
+     6     0  Great Lakes Airlines
+     0    14  Grupo TACA
+     0    77  Gulf Air Bahrain
+   425   128  Hainan Airlines
+     0     6  Hankook Airline
+     0    25  Hapagfly
+     0    88  Harmony Airways
+    50    24  Hawaiian Airlines
+     8     0  Hawkair
+     2     0  Helijet
+     0    10  Hello
+     0    14  Helvetic Airways
+     2     0  Hex'Air
+    26     0  Hokkaido International Airlines
+     0    21  Homer Air
+     0    49  Hong Kong Airlines
+     0    20  Hong Kong Express Airways
+    90     0  Huaxia
+   174   623  Iberia Airlines
+     0    23  Iberworld
+     0    25  Illinois Airways
+   205    22  IndiGo Airlines
+    20    42  Indonesia AirAsia
+     4    41  Insel Air (7I/INC) (Priv)
+     0     2  Interair South Africa
+    86    28  Interjet (ABC Aerolineas)
+     0    16  Interlink Airlines
+     0    26  Intersky
+    87    58  Iran Air
+   126    55  Iran Aseman Airlines
+     6     0  Island Air (WP)
+     8    64  Isles of Scilly Skybus
+     4     8  Israir
+     8     0  IzAvia
+     0   214  Japan Air System
+    39   215  Japan Airlines
+     0    18  Japan Asia Airways
+    22     0  Japan Transocean Air
+     0    30  Jazeera Airways
+     0    33  Jeju Air
+   112    44  Jet Airways
+     0   162  Jet2.com
+   238   161  JetBlue Airways
+    94    69  Jetstar Airways
+     0    36  Jetstar Asia Airways
+    18     0  Jetstar Pacific
+     2    24  Jin Air
+   123    22  Juneyao Airlines
+     0   527  KLM Royal Dutch Airlines
+     0    50  KSY
+     0     5  Kam Air
+     8   111  Kenya Airways
+     4     2  Kish Air
+     0   177  Korean Air
+     0    77  Kuwait Airways
+     0    52  L
+     0     4  LACSA
+    42   243  LAN Airlines
+     0    10  LAN Argentina
+    14   100  LOT Polish Airlines
+     0     6  LSM Airlines
+     0    48  Lao Airlines
+     0    62  Leeward Islands Air Transport
+    16    46  Libyan Arab Airlines
+     0    20  Linhas A
+   227    10  Lion Mentari Airlines
+    50   728  Lufthansa
+     0    52  Luxair
+     0    12  MIAT Mongolian Airlines
+     0    62  Maastricht Airlines
+     0     6  Mahan Air
+   124   208  Malaysia Airlines
+    16     8  Maldivian
+    26    20  Malindo Air
+    26    10  Malmö Aviation
+     8     8  Mandala Airlines
+    12    44  Mandarin Airlines
+    16     2  Mango
+     0    30  Marusya Airways
+     0    19  Marysya Airlines
+     6    24  Mauritania Airlines International
+     0    12  Maxair
+    11   129  Meridiana
+     0    12  Metro Batavia
+     0    20  MexicanaLink
+     0    61  Middle East Airlines
+     0     6  Mongolian International Air Lines 
+     0    26  Montenegro Airlines
+     6    14  Moskovia Airlines
+     4     2  Motor Sich
+     0     6  Myway Airlines
+    28    82  Nas Air
+     1    15  Nasair
+     0    10  Nationwide Airlines
+     0     8  Nauru Air Corporation
+     0     8  Nepal Airlines
+    29    12  NextJet
+     2   109  Niki
+     0    16  Nile Air
+    44     2  Nok Air
+    62    16  NordStar Airlines
+    18     0  Northwestern Air
+     8    48  Norwegian Air Shuttle
+     2    33  Nouvel Air Tunisie
+   104     0  Oceanair
+    52    28  Olympic Airlines
+     4    88  Oman Air
+     0     4  Omni Air International
+     0     4  Omskavia Airline
+    26    10  Onur Air
+     6     3  Orenburg Airlines
+     2     4  Orient Thai Airlines
+     0     8  Overland Airways
+     0     4  PAN Air
+     4     0  Pacific Coastal Airline
+     0    14  Pacific East Asia Cargo Airlines
+     6     0  Pacific Wings
+    69   134  Pakistan International Airlines
+     4     0  Pal airlines
+    20    12  Peach Aviation
+    92   150  Pegasus Airlines
+    28     0  Peninsula Airways
+    16     0  Peruvian Airlines
+    58    86  Philippine Airlines
+     0    14  Piedmont Airlines (1948-1989)
+    18     0  Pinnacle Airlines
+     6     6  Polet Airlines (Priv)
+    24    10  Porter Airlines
+     0    80  Potomac Air
+    17    10  Precision Air
+     0    18  Primaris Airlines
+    10     2  Proflight Commuter Services
+   105   170  Qantas
+     0   275  Qatar Airways
+     0     8  Rainbow Air Polynesia
+    88     0  Regional Express
+     2     3  Rossiya-Russian Airlines
+     0    34  Royal Air Cambodge
+    20   218  Royal Air Maroc
+     0    30  Royal Brunei Airlines
+     0     9  Royal Falcon
+     2   116  Royal Jordanian
+     2    13  Rwandair Express
+     0  2484  Ryanair
+   106   173  S7 Airlines
+    28     0  SATA Air Acores
+    24    45  SATA International
+    54     0  SATENA
+     0     2  SOCHI AIR CHATER
+     4    10  Safi Airlines
+     0     6  Salmon Air
+     0    48  Salzburg arrows
+     0     6  Santa Barbara Airlines
+     6     4  Saratov Aviation Division
+     0     9  Sat Airlines
+   114   238  Saudi Arabian Airlines
+    18   283  Scandinavian Airlines System
+    26     8  Scat Air
+     0    24  Scoot
+     0    32  Seaborne Airlines
+     0    20  Senegal Airlines
+     0    17  Servicios de Transportes A
+    16     2  Severstal Air Company
+    16    48  Shaheen Air International
+   284    30  Shandong Airlines
+   153    36  Shanghai Airlines
+   767    28  Shenzhen Airlines
+     0     2  Sibaviatrans
+   358    30  Sichuan Airlines
+     0    93  SilkAir
+    44    23  Silver Airways (3M)
+     0   211  Singapore Airlines
+    43     6  Sky Airline
+    12     2  SkyBahamas Airlines
+     0    24  SkyWork Airlines 
+    58     0  Skymark Airlines
+     0    20  Skynet Airlines
+     0     2  Skyservice Airlines
+     0     2  SmartLynx Airlines
+    36     8  Solomon Airlines
+    36   120  South African Airways
+    14     8  South East Asian Airlines
+    55    10  Southwest Airlines
+   104    14  Spicejet
+   182    60  Spirit Airlines
+     2    81  SriLankan Airlines
+   104     2  Sriwijaya Air
+     6     0  Star Flyer
+    18     0  Star Peru (2I)
+     0     4  Star1 Airlines
+     6     2  Starbow Airlines
+     0     4  Starline.kz
+     8    26  Sudan Airways
+    32     6  Sun Country Airlines
+    18    81  SunExpress
+     0    20  Surinam Airways
+     2   264  Swiss International Air Lines
+     4     5  T.J. Air
+    40    31  TAAG Angola Airlines
+     0    38  TACV
+   238    93  TAM Brazilian Airlines
+     2    16  TAM Mercosur
+    32    14  TAME
+    26   189  TAP Portugal
+     0    35  TRIP Linhas A
+     0    30  Tajik Air
+    13    57  Tarom
+    36    56  Thai AirAsia
+    10   167  Thai Airways International
+     0   125  Thomas Cook Airlines
+     0     3  Thomsonfly
+     0     6  Tiara Air
+     0    76  Tiger Airways
+    42     0  Tiger Airways Australia
+    14    78  TransAsia Airways
+     0     2  TransHolding System
+    74   200  Transaero Airlines
+     0     8  Transavia France
+     2    65  Travel Service
+     0    10  Tropic Air
+    14    10  Tuninter
+     0    60  Tunisair
+   110   469  Turkish Airlines
+     0    16  Turkmenistan Airlines
+     4    12  Tway Airlines
+    16     6  Twin Jet
+   839   593  US Airways
+    74     2  UTair-Express
+    10    77  Ukraine International Airlines
+     0    46  Uni Air
+   669   765  United Airlines
+     0    10  United Airways
+    56   176  Ural Airlines
+    21   130  Uzbekistan Airways
+     4   132  VOLOTEA Airways
+     0     6  Valuair
+     0    16  Varig Log
+    78   131  Vietnam Airlines
+     0     8  Viking Hellas
+    58     8  Virgin America
+     6   165  Virgin Atlantic Airways
+    60    79  Virgin Australia
+     0    42  Virgin Express
+     0     5  VivaColombia
+   149    48  Volaris
+     0    31  Volotea Costa Rica
+     0    26  WebJet Linhas A
+    90     0  West Air China
+    33    27  WestJet
+   189    16  Widerøe
+     4    21  Windward Islands Airways
+     0   457  Wizz Air
+     0    42  Wizz Air Ukraine
+     0    76  World Scale Airlines
+     5    27  XL Airways France
+   330    54  Xiamen Airlines
+     0     6  Yangon Airways
+    14    82  Yemenia
+    18     0  Yeti Airways
+     0    20  ZABAIKAL AIRLINES
+    10    22  Zest Air
+     0     5  Zip
+     0    10  Zoom Airlines
+     0    10  bmibaby
+    52  1078  easyJet
+--------------------------------------------------------------------------------
+Query: MOST USED PLANE,VN
+
+The most used plane by "Vietnam Airlines" is "Airbus A321"
+--------------------------------------------------------------------------------
+Query: MOST USED PLANE,X
+
+ERROR: X is an unknown IATA airline code
+--------------------------------------------------------------------------------
+Query: MOST USED PLANE,UA
+
+The most used plane by "United Airlines" is "Boeing 737-800"
+--------------------------------------------------------------------------------
+Query: DEPARTURE DELAY AIRPORTS,5,2019,6,4
+
+The 5 airports with more departure delays on 2019/06/04 are
+
+Accum. departure delays: 17796 - Minneapolis-St Paul International/Wold-Chamberlain Airport, Minneapolis, United States
+Accum. departure delays: 8512 - Chicago O'Hare International Airport, Chicago, United States
+Accum. departure delays: 7226 - Dallas Fort Worth International Airport, Dallas-Fort Worth, United States
+Accum. departure delays: 7080 - Phoenix Sky Harbor International Airport, Phoenix, United States
+Accum. departure delays: 5983 - Hartsfield Jackson Atlanta International Airport, Atlanta, United States
+--------------------------------------------------------------------------------
+Query: DEPARTURE DELAY AIRPORTS,0,2019,6,4
+
+The airports with more departure delays on 2019/06/04 are
+
+Accum. departure delays: 17796 - Minneapolis-St Paul International/Wold-Chamberlain Airport, Minneapolis, United States
+Accum. departure delays: 8512 - Chicago O'Hare International Airport, Chicago, United States
+Accum. departure delays: 7226 - Dallas Fort Worth International Airport, Dallas-Fort Worth, United States
+Accum. departure delays: 7080 - Phoenix Sky Harbor International Airport, Phoenix, United States
+Accum. departure delays: 5983 - Hartsfield Jackson Atlanta International Airport, Atlanta, United States
+Accum. departure delays: 5471 - Charlotte Douglas International Airport, Charlotte, United States
+Accum. departure delays: 5336 - Denver International Airport, Denver, United States
+Accum. departure delays: 4791 - San Francisco International Airport, San Francisco, United States
+Accum. departure delays: 4720 - La Guardia Airport, New York, United States
+Accum. departure delays: 4656 - George Bush Intercontinental Houston Airport, Houston, United States
+Accum. departure delays: 4496 - Los Angeles International Airport, Los Angeles, United States
+Accum. departure delays: 3339 - McCarran International Airport, Las Vegas, United States
+Accum. departure delays: 3153 - Austin Bergstrom International Airport, Austin, United States
+Accum. departure delays: 3069 - Newark Liberty International Airport, Newark, United States
+Accum. departure delays: 2419 - Philadelphia International Airport, Philadelphia, United States
+Accum. departure delays: 2371 - Salt Lake City International Airport, Salt Lake City, United States
+Accum. departure delays: 2265 - John F Kennedy International Airport, New York, United States
+Accum. departure delays: 2251 - General Edward Lawrence Logan International Airport, Boston, United States
+Accum. departure delays: 2121 - Ronald Reagan Washington National Airport, Washington, United States
+Accum. departure delays: 2106 - Miami International Airport, Miami, United States
+Accum. departure delays: 2065 - Orlando International Airport, Orlando, United States
+Accum. departure delays: 1996 - Seattle Tacoma International Airport, Seattle, United States
+Accum. departure delays: 1937 - Washington Dulles International Airport, Washington, United States
+Accum. departure delays: 1869 - Dallas Love Field, Dallas, United States
+Accum. departure delays: 1749 - William P Hobby Airport, Houston, United States
+Accum. departure delays: 1736 - Baltimore/Washington International Thurgood Marshall Airport, Baltimore, United States
+Accum. departure delays: 1731 - Indianapolis International Airport, Indianapolis, United States
+Accum. departure delays: 1584 - Kansas City International Airport, Kansas City, United States
+Accum. departure delays: 1533 - San Antonio International Airport, San Antonio, United States
+Accum. departure delays: 1530 - Louis Armstrong New Orleans International Airport, New Orleans, United States
+Accum. departure delays: 1522 - Cincinnati Northern Kentucky International Airport, Cincinnati, United States
+Accum. departure delays: 1459 - Tampa International Airport, Tampa, United States
+Accum. departure delays: 1413 - Detroit Metropolitan Wayne County Airport, Detroit, United States
+Accum. departure delays: 1411 - Chicago Midway International Airport, Chicago, United States
+Accum. departure delays: 1405 - St Louis Lambert International Airport, St. Louis, United States
+Accum. departure delays: 1385 - Nashville International Airport, Nashville, United States
+Accum. departure delays: 1382 - Jackson-Medgar Wiley Evers International Airport, Jackson, United States
+Accum. departure delays: 1371 - Syracuse Hancock International Airport, Syracuse, United States
+Accum. departure delays: 1354 - Fort Lauderdale Hollywood International Airport, Fort Lauderdale, United States
+Accum. departure delays: 1246 - Daniel K Inouye International Airport, Honolulu, United States
+Accum. departure delays: 1214 - Fresno Yosemite International Airport, Fresno, United States
+Accum. departure delays: 1205 - San Diego International Airport, San Diego, United States
+Accum. departure delays: 1121 - Luis Munoz Marin International Airport, San Juan, Puerto Rico
+Accum. departure delays: 1097 - Cleveland Hopkins International Airport, Cleveland, United States
+Accum. departure delays: 1096 - Raleigh Durham International Airport, Raleigh-durham, United States
+Accum. departure delays: 993 - Jacksonville International Airport, Jacksonville, United States
+Accum. departure delays: 991 - Rochester International Airport, Rochester, United States
+Accum. departure delays: 929 - Reno Tahoe International Airport, Reno, United States
+Accum. departure delays: 916 - John Glenn Columbus International Airport, Columbus, United States
+Accum. departure delays: 911 - Portland International Airport, Portland, United States
+Accum. departure delays: 803 - Pittsburgh International Airport, Pittsburgh, United States
+Accum. departure delays: 799 - Westchester County Airport, White Plains, United States
+Accum. departure delays: 775 - Theodore Francis Green State Airport, Providence, United States
+Accum. departure delays: 770 - Albany International Airport, Albany, United States
+Accum. departure delays: 754 - Norfolk International Airport, Norfolk, United States
+Accum. departure delays: 712 - Norman Y. Mineta San Jose International Airport, San Jose, United States
+Accum. departure delays: 678 - Springfield Branson National Airport, Springfield, United States
+Accum. departure delays: 629 - Toledo Express Airport, Toledo, United States
+Accum. departure delays: 626 - Birmingham-Shuttlesworth International Airport, Birmingham, United States
+Accum. departure delays: 623 - Louisville International Standiford Field, Louisville, United States
+Accum. departure delays: 565 - Tri-Cities Regional TN/VA Airport, BRISTOL, United States
+Accum. departure delays: 564 - Memphis International Airport, Memphis, United States
+Accum. departure delays: 559 - Eppley Airfield, Omaha, United States
+Accum. departure delays: 549 - General Mitchell International Airport, Milwaukee, United States
+Accum. departure delays: 548 - Sacramento International Airport, Sacramento, United States
+Accum. departure delays: 522 - Tulsa International Airport, Tulsa, United States
+Accum. departure delays: 518 - Hector International Airport, Fargo, United States
+Accum. departure delays: 501 - Savannah Hilton Head International Airport, Savannah, United States
+Accum. departure delays: 500 - Roberts Field, Redmond-Bend, United States
+Accum. departure delays: 494 - Piedmont Triad International Airport, Greensboro, United States
+Accum. departure delays: 484 - Metropolitan Oakland International Airport, Oakland, United States
+Accum. departure delays: 444 - Bob Hope Airport, Burbank, United States
+Accum. departure delays: 440 - Greater Rochester International Airport, Rochester, United States
+Accum. departure delays: 433 - City of Colorado Springs Municipal Airport, Colorado Springs, United States
+Accum. departure delays: 424 - The Eastern Iowa Airport, Cedar Rapids, United States
+Accum. departure delays: 418 - Southwest Florida International Airport, Fort Myers, United States
+Accum. departure delays: 414 - Buffalo Niagara International Airport, Buffalo, United States
+Accum. departure delays: 412 - Boise Air Terminal/Gowen Field, Boise, United States
+Accum. departure delays: 383 - Greenville Spartanburg International Airport, Greenville, United States
+Accum. departure delays: 377 - Tri Cities Airport, Pasco, United States - Kahului Airport, Kahului, United States
+Accum. departure delays: 374 - Destin-Ft Walton Beach Airport, Valparaiso, United States
+Accum. departure delays: 371 - San Luis County Regional Airport, San Luis Obispo, United States
+Accum. departure delays: 364 - James M Cox Dayton International Airport, Dayton, United States
+Accum. departure delays: 335 - Wichita Eisenhower National Airport, Wichita, United States
+Accum. departure delays: 332 - Shreveport Regional Airport, Shreveport, United States
+Accum. departure delays: 331 - Bradley International Airport, Windsor Locks, United States
+Accum. departure delays: 328 - Glacier Park International Airport, Kalispell, United States
+Accum. departure delays: 325 - Gerald R. Ford International Airport, Grand Rapids, United States
+Accum. departure delays: 316 - Rafael Hernandez Airport, Aguadilla, Puerto Rico
+Accum. departure delays: 313 - Palm Beach International Airport, West Palm Beach, United States
+Accum. departure delays: 308 - Redding Municipal Airport, Redding, United States
+Accum. departure delays: 306 - Albuquerque International Sunport, Albuquerque, United States
+Accum. departure delays: 284 - Rapid City Regional Airport, Rapid City, United States
+Accum. departure delays: 283 - California Redwood Coast-Humboldt County Airport, Arcata CA, United States
+Accum. departure delays: 268 - Richmond International Airport, Richmond, United States
+Accum. departure delays: 264 - El Paso International Airport, El Paso, United States
+Accum. departure delays: 258 - Will Rogers World Airport, Oklahoma City, United States
+Accum. departure delays: 246 - Joe Foss Field Airport, Sioux Falls, United States
+Accum. departure delays: 241 - Northwest Florida Beaches International Airport, Panama City, United States
+Accum. departure delays: 236 - Northwest Arkansas Regional Airport, Bentonville, United States - Lubbock Preston Smith International Airport, Lubbock, United States
+Accum. departure delays: 233 - Trenton Mercer Airport, Trenton, United States
+Accum. departure delays: 224 - Fort Wayne International Airport, Fort Wayne, United States
+Accum. departure delays: 223 - Sarasota Bradenton International Airport, Sarasota, United States
+Accum. departure delays: 220 - Santa Barbara Municipal Airport, Santa Barbara, United States
+Accum. departure delays: 218 - Pensacola Regional Airport, Pensacola, United States
+Accum. departure delays: 212 - Appleton International Airport, Appleton, United States
+Accum. departure delays: 207 - Austin Straubel International Airport, Green Bay, United States
+Accum. departure delays: 205 - Charleston Air Force Base-International Airport, Charleston, United States
+Accum. departure delays: 204 - Duluth International Airport, Duluth, United States
+Accum. departure delays: 195 - Long Beach /Daugherty Field/ Airport, Long Beach, United States
+Accum. departure delays: 193 - Valley International Airport, Harlingen, United States
+Accum. departure delays: 181 - Central Wisconsin Airport, Wassau, United States
+Accum. departure delays: 173 - Stewart International Airport, Newburgh, United States
+Accum. departure delays: 172 - Dane County Regional Truax Field, Madison, United States
+Accum. departure delays: 170 - Montgomery Regional (Dannelly Field) Airport, MONTGOMERY, United States
+Accum. departure delays: 169 - McGhee Tyson Airport, Knoxville, United States
+Accum. departure delays: 167 - South Bend Regional Airport, South Bend, United States
+Accum. departure delays: 164 - Ellison Onizuka Kona International At Keahole Airport, Kona, United States
+Accum. departure delays: 160 - John Wayne Airport-Orange County Airport, Santa Ana, United States
+Accum. departure delays: 155 - Pocatello Regional Airport, Pocatello, United States
+Accum. departure delays: 152 - Phoenix-Mesa-Gateway Airport, Mesa, United States
+Accum. departure delays: 150 - Tallahassee Regional Airport, Tallahassee, United States
+Accum. departure delays: 147 - Bill & Hillary Clinton National Airport/Adams Field, Little Rock, United States
+Accum. departure delays: 141 - Palm Springs International Airport, Palm Springs, United States - Spokane International Airport, Spokane, United States
+Accum. departure delays: 135 - Corpus Christi International Airport, Corpus Christi, United States
+Accum. departure delays: 126 - Rick Husband Amarillo International Airport, Amarillo, United States
+Accum. departure delays: 124 - Myrtle Beach International Airport, Myrtle Beach, United States
+Accum. departure delays: 120 - Manchester-Boston Regional Airport, Manchester NH, United States
+Accum. departure delays: 116 - Lovell Field, Chattanooga, United States
+Accum. departure delays: 111 - Key West International Airport, Key West, United States
+Accum. departure delays: 110 - Bismarck Municipal Airport, Bismarck, United States
+Accum. departure delays: 104 - Tucson International Airport, Tucson, United States
+Accum. departure delays: 103 - Monterey Peninsula Airport, Monterey, United States
+Accum. departure delays: 102 - Harrisburg International Airport, Harrisburg, United States
+Accum. departure delays: 101 - Akron Canton Regional Airport, Akron, United States
+Accum. departure delays: 97 - Portland International Jetport Airport, Portland, United States
+Accum. departure delays: 91 - Quad City International Airport, Moline, United States - Des Moines International Airport, Des Moines, United States - Wilkes Barre Scranton International Airport, Scranton, United States
+Accum. departure delays: 90 - Durango La Plata County Airport, Durango, United States - Western Neb. Rgnl/William B. Heilig Airport, Scottsbluff, United States
+Accum. departure delays: 89 - Lihue Airport, Lihue, United States
+Accum. departure delays: 88 - Huntsville International Carl T Jones Field, Huntsville, United States
+Accum. departure delays: 87 - Lincoln Airport, Lincoln, United States - Augusta Regional At Bush Field, Bush Field, United States
+Accum. departure delays: 86 - University Park Airport, State College Pennsylvania, United States
+Accum. departure delays: 85 - Rogue Valley International Medford Airport, Medford, United States
+Accum. departure delays: 84 - Yuma MCAS/Yuma International Airport, Yuma, United States
+Accum. departure delays: 83 - Central Nebraska Regional Airport, Grand Island, United States - Evansville Regional Airport, Evansville, United States
+Accum. departure delays: 82 - General Wayne A. Downing Peoria International Airport, Peoria, United States - Bangor International Airport, Bangor, United States
+Accum. departure delays: 80 - Midland International Airport, Midland, United States - Billings Logan International Airport, Billings, United States
+Accum. departure delays: 79 - Wilmington International Airport, Wilmington, United States
+Accum. departure delays: 78 - Albert J Ellis Airport, Jacksonville NC, United States
+Accum. departure delays: 76 - Minot International Airport, Minot, United States
+Accum. departure delays: 74 - Columbia Regional Airport, Columbia, United States
+Accum. departure delays: 73 - Falls International Airport, International Falls, United States
+Accum. departure delays: 69 - Sawyer International Airport, Gwinn, United States
+Accum. departure delays: 67 - Shenandoah Valley Regional Airport, Weyers Cave, United States - Asheville Regional Airport, Asheville, United States
+Accum. departure delays: 64 - Vernal Regional Airport, Vernal, United States - Missoula International Airport, Missoula, United States
+Accum. departure delays: 63 - Cyril E. King Airport, St. Thomas, Virgin Islands
+Accum. departure delays: 61 - Ted Stevens Anchorage International Airport, Anchorage, United States
+Accum. departure delays: 59 - Burlington International Airport, Burlington, United States
+Accum. departure delays: 56 - Orlando Sanford International Airport, Sanford, United States
+Accum. departure delays: 55 - Ontario International Airport, Ontario, United States
+Accum. departure delays: 54 - Cherry Capital Airport, Traverse City, United States - Charlottesville Albemarle Airport, Charlottesville VA, United States
+Accum. departure delays: 53 - Lynchburg Regional Preston Glenn Field, Lynchburg, United States
+Accum. departure delays: 52 - Salina Municipal Airport, Salina, United States - Roanoke–Blacksburg Regional Airport, Roanoke VA, United States - Daytona Beach International Airport, Daytona Beach, United States
+Accum. departure delays: 49 - Aspen-Pitkin Co/Sardy Field, Aspen, United States
+Accum. departure delays: 48 - Mobile Regional Airport, Mobile, United States - Liberal Mid-America Regional Airport, Liberal, United States
+Accum. departure delays: 47 - Santa Fe Municipal Airport, Santa Fe, United States - Pueblo Memorial Airport, Pueblo, United States - Juneau International Airport, Juneau, United States - Grand Forks International Airport, Grand Forks, United States - Cheyenne Regional Jerry Olson Field, Cheyenne, United States
+Accum. departure delays: 46 - Sheppard Air Force Base-Wichita Falls Municipal Airport, Wichita Falls, United States
+Accum. departure delays: 43 - Scott AFB/Midamerica Airport, Belleville, United States
+Accum. departure delays: 42 - Quincy Regional Baldwin Field, Quincy, United States
+Accum. departure delays: 40 - Columbia Metropolitan Airport, Columbia, United States
+Accum. departure delays: 39 - Fayetteville Regional Grannis Field, Fayetteville, United States
+Accum. departure delays: 38 - Bishop International Airport, Flint, United States - Lehigh Valley International Airport, Allentown, United States
+Accum. departure delays: 36 - Barkley Regional Airport, PADUCAH, United States - Abilene Regional Airport, Abilene, United States
+Accum. departure delays: 33 - Rickenbacker International Airport, Columbus, United States - Lawton Fort Sill Regional Airport, Lawton, United States
+Accum. departure delays: 32 - Provo Municipal Airport, Provo, United States
+Accum. departure delays: 29 - Key Field, Meridian, United States - Del Rio International Airport, Del Rio, United States
+Accum. departure delays: 27 - Hays Regional Airport, Hays, United States
+Accum. departure delays: 25 - Mc Allen Miller International Airport, Mcallen, United States
+Accum. departure delays: 23 - Hilton Head Airport, Hilton Head Island, United States - Erie International Tom Ridge Field, Erie, United States - Aberdeen Regional Airport, Aberdeen, United States
+Accum. departure delays: 22 - Long Island Mac Arthur Airport, Islip, United States - Central Illinois Regional Airport at Bloomington-Normal, Bloomington, United States - Waterloo Regional Airport, Waterloo, United States
+Accum. departure delays: 21 - University of Illinois Willard Airport, Champaign, United States
+Accum. departure delays: 20 - Baton Rouge Metropolitan Airport, Baton Rouge, United States
+Accum. departure delays: 19 - Grand Junction Regional Airport, Grand Junction, United States
+Accum. departure delays: 18 - Manhattan Regional Airport, Manhattan, United States - Idaho Falls Regional Airport, Idaho Falls, United States - East Texas Regional Airport, Longview, United States
+Accum. departure delays: 15 - Ketchikan International Airport, Ketchikan, United States - Flagstaff Pulliam Airport, Flagstaff, United States
+Accum. departure delays: 14 - St Petersburg Clearwater International Airport, St. Petersburg, United States
+Accum. departure delays: 13 - Blue Grass Airport, Lexington KY, United States
+Accum. departure delays: 12 - Coastal Carolina Regional Airport, New Bern, United States
+Accum. departure delays: 11 - Houghton County Memorial Airport, Hancock, United States
+Accum. departure delays: 10 - Abraham Lincoln Capital Airport, Springfield, United States - Sitka Rocky Gutierrez Airport, Sitka, United States - Laramie Regional Airport, Laramie, United States
+Accum. departure delays: 8 - Sioux Gateway Col. Bud Day Field, Sioux City, United States - Sloulin Field International Airport, Williston, United States - Tri-State/Milton J. Ferguson Field, Huntington, United States - Fairbanks International Airport, Fairbanks, United States - Greater Binghamton/Edwin A Link field, Binghamton, United States
+Accum. departure delays: 7 - Capital City Airport, Lansing, United States - Jackson Hole Airport, Jacksn Hole, United States - Hilo International Airport, Hilo, United States
+Accum. departure delays: 6 - Robert Gray  Army Air Field Airport, Killeen, United States - Chippewa Valley Regional Airport, Eau Claire, United States
+Accum. departure delays: 5 - Gulfport Biloxi International Airport, Gulfport, United States - Gainesville Regional Airport, Gainesville, United States
+Accum. departure delays: 4 - Rhinelander Oneida County Airport, Rhinelander, United States - Easterwood Field, College Station, United States - Atlantic City International Airport, Atlantic City, United States
+Accum. departure delays: 3 - Henry E Rohlsen Airport, St. Croix Island, Virgin Islands - Melbourne International Airport, Melbourne, United States - La Crosse Municipal Airport, La Crosse, United States - Fort Smith Regional Airport, Fort Smith, United States - Dubuque Regional Airport, Dubuque IA, United States - Waco Regional Airport, Waco, United States
+Accum. departure delays: 2 - Chicago Rockford International Airport, Rockford, United States - Montrose Regional Airport, Montrose CO, United States - Brownsville South Padre Island International Airport, Brownsville, United States
+Accum. departure delays: 1 - Newport News Williamsburg International Airport, Newport News, United States - Lake Charles Regional Airport, Lake Charles, United States - Gillette Campbell County Airport, Gillette, United States - Yeager Airport, Charleston, United States - Cape Girardeau Regional Airport, Cape Girardeau, United States - Gallatin Field, Bozeman, United States
+--------------------------------------------------------------------------------
+Query: ARRIVAL DELAY AIRPORTS,5,2019,6,4
+
+The 5 airports with more arrival delays on 2019/06/04 are
+
+Accum. arrival delays: 11158 - Chicago O'Hare International Airport, Chicago, United States
+Accum. arrival delays: 7877 - Dallas Fort Worth International Airport, Dallas-Fort Worth, United States
+Accum. arrival delays: 7332 - George Bush Intercontinental Houston Airport, Houston, United States
+Accum. arrival delays: 7326 - Minneapolis-St Paul International/Wold-Chamberlain Airport, Minneapolis, United States
+Accum. arrival delays: 7208 - Denver International Airport, Denver, United States
+--------------------------------------------------------------------------------
+Query: ARRIVAL DELAY AIRPORTS,0,2019,6,4
+
+The airports with more arrival delays on 2019/06/04 are
+
+Accum. arrival delays: 11158 - Chicago O'Hare International Airport, Chicago, United States
+Accum. arrival delays: 7877 - Dallas Fort Worth International Airport, Dallas-Fort Worth, United States
+Accum. arrival delays: 7332 - George Bush Intercontinental Houston Airport, Houston, United States
+Accum. arrival delays: 7326 - Minneapolis-St Paul International/Wold-Chamberlain Airport, Minneapolis, United States
+Accum. arrival delays: 7208 - Denver International Airport, Denver, United States
+Accum. arrival delays: 6587 - Charlotte Douglas International Airport, Charlotte, United States
+Accum. arrival delays: 5805 - Los Angeles International Airport, Los Angeles, United States
+Accum. arrival delays: 5477 - Phoenix Sky Harbor International Airport, Phoenix, United States
+Accum. arrival delays: 5107 - Hartsfield Jackson Atlanta International Airport, Atlanta, United States
+Accum. arrival delays: 4917 - La Guardia Airport, New York, United States
+Accum. arrival delays: 4890 - Newark Liberty International Airport, Newark, United States
+Accum. arrival delays: 3936 - San Francisco International Airport, San Francisco, United States
+Accum. arrival delays: 3593 - John F Kennedy International Airport, New York, United States
+Accum. arrival delays: 3517 - General Edward Lawrence Logan International Airport, Boston, United States
+Accum. arrival delays: 3223 - McCarran International Airport, Las Vegas, United States
+Accum. arrival delays: 3053 - Salt Lake City International Airport, Salt Lake City, United States
+Accum. arrival delays: 2680 - Seattle Tacoma International Airport, Seattle, United States
+Accum. arrival delays: 2620 - Detroit Metropolitan Wayne County Airport, Detroit, United States
+Accum. arrival delays: 2462 - Washington Dulles International Airport, Washington, United States
+Accum. arrival delays: 2447 - Philadelphia International Airport, Philadelphia, United States
+Accum. arrival delays: 2267 - Ronald Reagan Washington National Airport, Washington, United States
+Accum. arrival delays: 2171 - Austin Bergstrom International Airport, Austin, United States
+Accum. arrival delays: 2161 - Kansas City International Airport, Kansas City, United States
+Accum. arrival delays: 2119 - Miami International Airport, Miami, United States
+Accum. arrival delays: 1971 - Fort Lauderdale Hollywood International Airport, Fort Lauderdale, United States
+Accum. arrival delays: 1963 - Orlando International Airport, Orlando, United States
+Accum. arrival delays: 1625 - San Diego International Airport, San Diego, United States
+Accum. arrival delays: 1603 - Nashville International Airport, Nashville, United States
+Accum. arrival delays: 1597 - Dallas Love Field, Dallas, United States
+Accum. arrival delays: 1393 - Chicago Midway International Airport, Chicago, United States
+Accum. arrival delays: 1351 - Baltimore/Washington International Thurgood Marshall Airport, Baltimore, United States
+Accum. arrival delays: 1332 - Raleigh Durham International Airport, Raleigh-durham, United States
+Accum. arrival delays: 1260 - John Glenn Columbus International Airport, Columbus, United States
+Accum. arrival delays: 1256 - Cleveland Hopkins International Airport, Cleveland, United States
+Accum. arrival delays: 1202 - San Antonio International Airport, San Antonio, United States
+Accum. arrival delays: 1192 - Tampa International Airport, Tampa, United States
+Accum. arrival delays: 1169 - St Louis Lambert International Airport, St. Louis, United States
+Accum. arrival delays: 1144 - Albany International Airport, Albany, United States
+Accum. arrival delays: 1128 - Rochester International Airport, Rochester, United States
+Accum. arrival delays: 1127 - Indianapolis International Airport, Indianapolis, United States
+Accum. arrival delays: 1059 - Portland International Airport, Portland, United States
+Accum. arrival delays: 1052 - Pittsburgh International Airport, Pittsburgh, United States
+Accum. arrival delays: 958 - Louis Armstrong New Orleans International Airport, New Orleans, United States
+Accum. arrival delays: 913 - Cincinnati Northern Kentucky International Airport, Cincinnati, United States
+Accum. arrival delays: 902 - Jacksonville International Airport, Jacksonville, United States
+Accum. arrival delays: 886 - William P Hobby Airport, Houston, United States
+Accum. arrival delays: 836 - Palm Springs International Airport, Palm Springs, United States
+Accum. arrival delays: 833 - Savannah Hilton Head International Airport, Savannah, United States
+Accum. arrival delays: 807 - Duluth International Airport, Duluth, United States
+Accum. arrival delays: 760 - Fort Wayne International Airport, Fort Wayne, United States
+Accum. arrival delays: 753 - Norfolk International Airport, Norfolk, United States
+Accum. arrival delays: 750 - Will Rogers World Airport, Oklahoma City, United States
+Accum. arrival delays: 749 - Sacramento International Airport, Sacramento, United States
+Accum. arrival delays: 737 - Central Wisconsin Airport, Wassau, United States
+Accum. arrival delays: 669 - Boise Air Terminal/Gowen Field, Boise, United States
+Accum. arrival delays: 667 - Hector International Airport, Fargo, United States
+Accum. arrival delays: 647 - General Mitchell International Airport, Milwaukee, United States
+Accum. arrival delays: 624 - Norman Y. Mineta San Jose International Airport, San Jose, United States
+Accum. arrival delays: 599 - Daniel K Inouye International Airport, Honolulu, United States
+Accum. arrival delays: 536 - Palm Beach International Airport, West Palm Beach, United States
+Accum. arrival delays: 530 - Midland International Airport, Midland, United States
+Accum. arrival delays: 528 - James M Cox Dayton International Airport, Dayton, United States - Bradley International Airport, Windsor Locks, United States
+Accum. arrival delays: 508 - Metropolitan Oakland International Airport, Oakland, United States
+Accum. arrival delays: 506 - Richmond International Airport, Richmond, United States
+Accum. arrival delays: 467 - Theodore Francis Green State Airport, Providence, United States
+Accum. arrival delays: 450 - Syracuse Hancock International Airport, Syracuse, United States
+Accum. arrival delays: 445 - Eppley Airfield, Omaha, United States
+Accum. arrival delays: 442 - John Wayne Airport-Orange County Airport, Santa Ana, United States
+Accum. arrival delays: 433 - Luis Munoz Marin International Airport, San Juan, Puerto Rico
+Accum. arrival delays: 430 - Memphis International Airport, Memphis, United States
+Accum. arrival delays: 426 - Louisville International Standiford Field, Louisville, United States - Westchester County Airport, White Plains, United States
+Accum. arrival delays: 415 - Wichita Eisenhower National Airport, Wichita, United States
+Accum. arrival delays: 405 - Tulsa International Airport, Tulsa, United States - Joe Foss Field Airport, Sioux Falls, United States
+Accum. arrival delays: 389 - Orlando Sanford International Airport, Sanford, United States - Birmingham-Shuttlesworth International Airport, Birmingham, United States
+Accum. arrival delays: 377 - McGhee Tyson Airport, Knoxville, United States
+Accum. arrival delays: 355 - Dane County Regional Truax Field, Madison, United States
+Accum. arrival delays: 352 - City of Colorado Springs Municipal Airport, Colorado Springs, United States
+Accum. arrival delays: 339 - Redding Municipal Airport, Redding, United States
+Accum. arrival delays: 337 - Tucson International Airport, Tucson, United States - Buffalo Niagara International Airport, Buffalo, United States
+Accum. arrival delays: 335 - Greater Rochester International Airport, Rochester, United States
+Accum. arrival delays: 333 - Albuquerque International Sunport, Albuquerque, United States
+Accum. arrival delays: 331 - Gerald R. Ford International Airport, Grand Rapids, United States
+Accum. arrival delays: 327 - Reno Tahoe International Airport, Reno, United States
+Accum. arrival delays: 317 - Long Beach /Daugherty Field/ Airport, Long Beach, United States
+Accum. arrival delays: 316 - Gallatin Field, Bozeman, United States
+Accum. arrival delays: 297 - Austin Straubel International Airport, Green Bay, United States
+Accum. arrival delays: 294 - California Redwood Coast-Humboldt County Airport, Arcata CA, United States
+Accum. arrival delays: 293 - Bob Hope Airport, Burbank, United States
+Accum. arrival delays: 288 - Kahului Airport, Kahului, United States - Phoenix-Mesa-Gateway Airport, Mesa, United States - Appleton International Airport, Appleton, United States
+Accum. arrival delays: 284 - Lihue Airport, Lihue, United States
+Accum. arrival delays: 283 - Charleston Air Force Base-International Airport, Charleston, United States
+Accum. arrival delays: 282 - Northwest Arkansas Regional Airport, Bentonville, United States
+Accum. arrival delays: 266 - Valley International Airport, Harlingen, United States
+Accum. arrival delays: 263 - Greenville Spartanburg International Airport, Greenville, United States
+Accum. arrival delays: 262 - Santa Barbara Municipal Airport, Santa Barbara, United States
+Accum. arrival delays: 256 - The Eastern Iowa Airport, Cedar Rapids, United States
+Accum. arrival delays: 255 - Akron Canton Regional Airport, Akron, United States
+Accum. arrival delays: 251 - Grand Forks International Airport, Grand Forks, United States
+Accum. arrival delays: 250 - Rapid City Regional Airport, Rapid City, United States
+Accum. arrival delays: 242 - Bill & Hillary Clinton National Airport/Adams Field, Little Rock, United States
+Accum. arrival delays: 239 - Spokane International Airport, Spokane, United States
+Accum. arrival delays: 235 - Pensacola Regional Airport, Pensacola, United States
+Accum. arrival delays: 231 - Manchester-Boston Regional Airport, Manchester NH, United States
+Accum. arrival delays: 229 - Ellison Onizuka Kona International At Keahole Airport, Kona, United States
+Accum. arrival delays: 206 - Ted Stevens Anchorage International Airport, Anchorage, United States
+Accum. arrival delays: 205 - Des Moines International Airport, Des Moines, United States
+Accum. arrival delays: 197 - Lubbock Preston Smith International Airport, Lubbock, United States
+Accum. arrival delays: 196 - Wilmington International Airport, Wilmington, United States
+Accum. arrival delays: 194 - El Paso International Airport, El Paso, United States
+Accum. arrival delays: 193 - South Bend Regional Airport, South Bend, United States - Piedmont Triad International Airport, Greensboro, United States
+Accum. arrival delays: 181 - Jackson-Medgar Wiley Evers International Airport, Jackson, United States
+Accum. arrival delays: 180 - Capital City Airport, Lansing, United States
+Accum. arrival delays: 177 - Stewart International Airport, Newburgh, United States
+Accum. arrival delays: 176 - Monterey Peninsula Airport, Monterey, United States
+Accum. arrival delays: 175 - Springfield Branson National Airport, Springfield, United States - Bismarck Municipal Airport, Bismarck, United States
+Accum. arrival delays: 173 - Portland International Jetport Airport, Portland, United States - Fresno Yosemite International Airport, Fresno, United States
+Accum. arrival delays: 166 - Shreveport Regional Airport, Shreveport, United States
+Accum. arrival delays: 155 - Destin-Ft Walton Beach Airport, Valparaiso, United States - Bangor International Airport, Bangor, United States
+Accum. arrival delays: 154 - Mobile Regional Airport, Mobile, United States
+Accum. arrival delays: 153 - Quad City International Airport, Moline, United States
+Accum. arrival delays: 152 - Montgomery Regional (Dannelly Field) Airport, MONTGOMERY, United States
+Accum. arrival delays: 150 - Sloulin Field International Airport, Williston, United States
+Accum. arrival delays: 149 - Missoula International Airport, Missoula, United States
+Accum. arrival delays: 148 - Billings Logan International Airport, Billings, United States
+Accum. arrival delays: 144 - St Petersburg Clearwater International Airport, St. Petersburg, United States
+Accum. arrival delays: 141 - Southwest Florida International Airport, Fort Myers, United States
+Accum. arrival delays: 140 - Rick Husband Amarillo International Airport, Amarillo, United States
+Accum. arrival delays: 137 - Toledo Express Airport, Toledo, United States
+Accum. arrival delays: 132 - La Crosse Municipal Airport, La Crosse, United States
+Accum. arrival delays: 131 - Lincoln Airport, Lincoln, United States - Daytona Beach International Airport, Daytona Beach, United States
+Accum. arrival delays: 128 - Sawyer International Airport, Gwinn, United States - Rogue Valley International Medford Airport, Medford, United States
+Accum. arrival delays: 127 - Lovell Field, Chattanooga, United States
+Accum. arrival delays: 126 - Sarasota Bradenton International Airport, Sarasota, United States - Laredo International Airport, Laredo, United States
+Accum. arrival delays: 125 - General Wayne A. Downing Peoria International Airport, Peoria, United States
+Accum. arrival delays: 124 - Huntsville International Carl T Jones Field, Huntsville, United States - Burlington International Airport, Burlington, United States
+Accum. arrival delays: 123 - Aberdeen Regional Airport, Aberdeen, United States
+Accum. arrival delays: 117 - Helena Regional Airport, Helena, United States
+Accum. arrival delays: 116 - Santa Fe Municipal Airport, Santa Fe, United States
+Accum. arrival delays: 114 - Minot International Airport, Minot, United States
+Accum. arrival delays: 113 - Tri-Cities Regional TN/VA Airport, BRISTOL, United States
+Accum. arrival delays: 111 - Tri Cities Airport, Pasco, United States - Chippewa County International Airport, Sault Ste Marie, United States
+Accum. arrival delays: 102 - Corpus Christi International Airport, Corpus Christi, United States
+Accum. arrival delays: 101 - University Park Airport, State College Pennsylvania, United States
+Accum. arrival delays: 99 - Wilkes Barre Scranton International Airport, Scranton, United States
+Accum. arrival delays: 98 - Ontario International Airport, Ontario, United States
+Accum. arrival delays: 94 - Northwest Florida Beaches International Airport, Panama City, United States
+Accum. arrival delays: 93 - Myrtle Beach International Airport, Myrtle Beach, United States
+Accum. arrival delays: 89 - Tallahassee Regional Airport, Tallahassee, United States - Durango La Plata County Airport, Durango, United States
+Accum. arrival delays: 88 - Hilton Head Airport, Hilton Head Island, United States
+Accum. arrival delays: 86 - Falls International Airport, International Falls, United States - Asheville Regional Airport, Asheville, United States
+Accum. arrival delays: 84 - Kalamazoo Battle Creek International Airport, Kalamazoo, United States
+Accum. arrival delays: 81 - Blue Grass Airport, Lexington KY, United States
+Accum. arrival delays: 80 - Vernal Regional Airport, Vernal, United States - Harrisburg International Airport, Harrisburg, United States
+Accum. arrival delays: 79 - Long Island Mac Arthur Airport, Islip, United States
+Accum. arrival delays: 78 - Aspen-Pitkin Co/Sardy Field, Aspen, United States
+Accum. arrival delays: 74 - Columbus Metropolitan Airport, Columbus, United States
+Accum. arrival delays: 73 - Cyril E. King Airport, St. Thomas, Virgin Islands - Roberts Field, Redmond-Bend, United States
+Accum. arrival delays: 72 - Baton Rouge Metropolitan Airport, Baton Rouge, United States
+Accum. arrival delays: 68 - Gulfport Biloxi International Airport, Gulfport, United States - Columbia Regional Airport, Columbia, United States
+Accum. arrival delays: 66 - Salina Municipal Airport, Salina, United States
+Accum. arrival delays: 64 - Cherry Capital Airport, Traverse City, United States - Lynchburg Regional Preston Glenn Field, Lynchburg, United States
+Accum. arrival delays: 63 - Yuma MCAS/Yuma International Airport, Yuma, United States
+Accum. arrival delays: 62 - Bishop International Airport, Flint, United States
+Accum. arrival delays: 60 - Juneau International Airport, Juneau, United States
+Accum. arrival delays: 59 - Charlottesville Albemarle Airport, Charlottesville VA, United States
+Accum. arrival delays: 53 - Columbia Metropolitan Airport, Columbia, United States
+Accum. arrival delays: 52 - MBS International Airport, Saginaw, United States
+Accum. arrival delays: 50 - Great Falls International Airport, Great Falls, United States - Fayetteville Regional Grannis Field, Fayetteville, United States - Lehigh Valley International Airport, Allentown, United States
+Accum. arrival delays: 48 - Abraham Lincoln Capital Airport, Springfield, United States
+Accum. arrival delays: 46 - Roanoke–Blacksburg Regional Airport, Roanoke VA, United States
+Accum. arrival delays: 44 - Pueblo Memorial Airport, Pueblo, United States - Chippewa Valley Regional Airport, Eau Claire, United States
+Accum. arrival delays: 43 - San Luis County Regional Airport, San Luis Obispo, United States - Grand Junction Regional Airport, Grand Junction, United States - University of Illinois Willard Airport, Champaign, United States
+Accum. arrival delays: 42 - Mc Allen Miller International Airport, Mcallen, United States - Lawton Fort Sill Regional Airport, Lawton, United States
+Accum. arrival delays: 41 - Evansville Regional Airport, Evansville, United States
+Accum. arrival delays: 39 - Waterloo Regional Airport, Waterloo, United States - Atlantic City International Airport, Atlantic City, United States
+Accum. arrival delays: 38 - Abilene Regional Airport, Abilene, United States
+Accum. arrival delays: 37 - Hays Regional Airport, Hays, United States
+Accum. arrival delays: 35 - Montrose Regional Airport, Montrose CO, United States
+Accum. arrival delays: 33 - Mercedita Airport, Ponce, Puerto Rico
+Accum. arrival delays: 30 - Monroe Regional Airport, Monroe, United States - Mahlon Sweet Field, Eugene, United States
+Accum. arrival delays: 28 - Provo Municipal Airport, Provo, United States - Rickenbacker International Airport, Columbus, United States - Lea County Regional Airport, Hobbs, United States
+Accum. arrival delays: 27 - Sheppard Air Force Base-Wichita Falls Municipal Airport, Wichita Falls, United States - Flagstaff Pulliam Airport, Flagstaff, United States
+Accum. arrival delays: 25 - Manhattan Regional Airport, Manhattan, United States
+Accum. arrival delays: 24 - Nome Airport, Nome, United States - Idaho Falls Regional Airport, Idaho Falls, United States - Cheyenne Regional Jerry Olson Field, Cheyenne, United States - Brainerd Lakes Regional Airport, Brainerd, United States
+Accum. arrival delays: 22 - Sioux Gateway Col. Bud Day Field, Sioux City, United States - Erie International Tom Ridge Field, Erie, United States - Brownsville South Padre Island International Airport, Brownsville, United States
+Accum. arrival delays: 21 - Sitka Rocky Gutierrez Airport, Sitka, United States - Rhinelander Oneida County Airport, Rhinelander, United States
+Accum. arrival delays: 20 - Lake Charles Regional Airport, Lake Charles, United States - Jackson Hole Airport, Jacksn Hole, United States
+Accum. arrival delays: 19 - Tweed New Haven Airport, New Haven, United States - Fairbanks International Airport, Fairbanks, United States - Coastal Carolina Regional Airport, New Bern, United States
+Accum. arrival delays: 18 - San Angelo Regional Mathis Field, San Angelo, United States - Range Regional Airport, Hibbing, United States - Dubuque Regional Airport, Dubuque IA, United States - Rafael Hernandez Airport, Aguadilla, Puerto Rico
+Accum. arrival delays: 17 - Laramie Regional Airport, Laramie, United States - Ketchikan International Airport, Ketchikan, United States - Robert Gray  Army Air Field Airport, Killeen, United States - Easterwood Field, College Station, United States
+Accum. arrival delays: 15 - Hilo International Airport, Hilo, United States
+Accum. arrival delays: 14 - Chicago Rockford International Airport, Rockford, United States - Del Rio International Airport, Del Rio, United States - Scott AFB/Midamerica Airport, Belleville, United States - Meadows Field, Bakersfield, United States
+Accum. arrival delays: 13 - Concord-Padgett Regional Airport, Concord, United States - Petersburg James A Johnson Airport, Petersburg, United States - Snohomish County (Paine Field) Airport, Everett, United States
+Accum. arrival delays: 12 - Key West International Airport, Key West, United States
+Accum. arrival delays: 11 - Roswell International Air Center Airport, Roswell, United States - Houghton County Memorial Airport, Hancock, United States
+Accum. arrival delays: 9 - Yakutat Airport, Yakutat, United States - Garden City Regional Airport, Garden City, United States
+Accum. arrival delays: 8 - Tyler Pounds Regional Airport, Tyler, United States - Trenton Mercer Airport, Trenton, United States - Newport News Williamsburg International Airport, Newport News, United States - Bellingham International Airport, Bellingham, United States
+Accum. arrival delays: 7 - Valdosta Regional Airport, Valdosta, United States - Key Field, Meridian, United States
+Accum. arrival delays: 6 - Stillwater Regional Airport, Stillwater, United States - Southwest Wyoming Regional Airport, Rock Springs, United States - Merle K (Mudhole) Smith Airport, Cordova, United States - Greater Binghamton/Edwin A Link field, Binghamton, United States - Waco Regional Airport, Waco, United States
+Accum. arrival delays: 5 - Plattsburgh International Airport, Plattsburgh, United States
+Accum. arrival delays: 4 - Wiley Post Will Rogers Memorial Airport, Barrow, United States
+Accum. arrival delays: 3 - Melbourne International Airport, Melbourne, United States - Glacier Park International Airport, Kalispell, United States - Cedar City Regional Airport, Cedar City, United States - Central Illinois Regional Airport at Bloomington-Normal, Bloomington, United States
+Accum. arrival delays: 2 - Worcester Regional Airport, Worcester, United States - Ogdensburg International Airport, Ogdensburg, United States - Gainesville Regional Airport, Gainesville, United States - Fort Smith Regional Airport, Fort Smith, United States - Canyonlands Field, Moab, United States
+Accum. arrival delays: 1 - Friedman Memorial Airport, Hailey, United States - Charles M. Schulz Sonoma County Airport, Santa Rosa, United States - Lewiston Nez Perce County Airport, Lewiston, United States - Joplin Regional Airport, Joplin, United States - Tri-State/Milton J. Ferguson Field, Huntington, United States - Western Neb. Rgnl/William B. Heilig Airport, Scottsbluff, United States
+--------------------------------------------------------------------------------
+Query: DEPARTURE DELAY AIRLINES,5
+
+The 5 airlines with more departure delays are
+
+Accum. departure delays: 1737863 - Southwest Airlines, United States
+Accum. departure delays: 1625301 - American Airlines, United States
+Accum. departure delays: 1359427 - SkyWest, United States
+Accum. departure delays: 1271379 - Delta Air Lines, United States
+Accum. departure delays: 1216861 - United Airlines, United States
+--------------------------------------------------------------------------------
+Query: DEPARTURE DELAY AIRLINES,0
+
+The airlines with more departure delays are
+
+Accum. departure delays: 1737863 - Southwest Airlines, United States
+Accum. departure delays: 1625301 - American Airlines, United States
+Accum. departure delays: 1359427 - SkyWest, United States
+Accum. departure delays: 1271379 - Delta Air Lines, United States
+Accum. departure delays: 1216861 - United Airlines, United States
+Accum. departure delays: 607088 - JetBlue Airways, United States
+Accum. departure delays: 521974 - Pinnacle Airlines, United States
+Accum. departure delays: 504565 - American Eagle Airlines, United States
+Accum. departure delays: 479728 - Midwest Airlines, United States
+Accum. departure delays: 472142 - Mesa Airlines, United States
+Accum. departure delays: 409403 - Comair, United States
+Accum. departure delays: 331932 - Spirit Airlines, United States
+Accum. departure delays: 323258 - Atlantic Southeast Airlines, United States
+Accum. departure delays: 273275 - Frontier Airlines, United States
+Accum. departure delays: 222206 - Alaska Airlines, ALASKA
+Accum. departure delays: 204008 - Allegiant Air, United States
+Accum. departure delays: 43549 - Hawaiian Airlines, United States
+--------------------------------------------------------------------------------
+Query: ARRIVAL DELAY AIRLINES,5
+
+The 5 airlines with more arrival delays are
+
+Accum. arrival delays: 1665188 - American Airlines, United States
+Accum. arrival delays: 1579433 - Southwest Airlines, United States
+Accum. arrival delays: 1409300 - SkyWest, United States
+Accum. arrival delays: 1271215 - United Airlines, United States
+Accum. arrival delays: 1263909 - Delta Air Lines, United States
+--------------------------------------------------------------------------------
+Query: ARRIVAL DELAY AIRLINES,0
+
+The airlines with more arrival delays are
+
+Accum. arrival delays: 1665188 - American Airlines, United States
+Accum. arrival delays: 1579433 - Southwest Airlines, United States
+Accum. arrival delays: 1409300 - SkyWest, United States
+Accum. arrival delays: 1271215 - United Airlines, United States
+Accum. arrival delays: 1263909 - Delta Air Lines, United States
+Accum. arrival delays: 586204 - JetBlue Airways, United States
+Accum. arrival delays: 556166 - American Eagle Airlines, United States
+Accum. arrival delays: 526770 - Midwest Airlines, United States
+Accum. arrival delays: 522910 - Pinnacle Airlines, United States
+Accum. arrival delays: 492872 - Mesa Airlines, United States
+Accum. arrival delays: 422077 - Comair, United States
+Accum. arrival delays: 342756 - Atlantic Southeast Airlines, United States
+Accum. arrival delays: 341007 - Spirit Airlines, United States
+Accum. arrival delays: 281500 - Frontier Airlines, United States
+Accum. arrival delays: 232377 - Alaska Airlines, ALASKA
+Accum. arrival delays: 217945 - Allegiant Air, United States
+Accum. arrival delays: 47553 - Hawaiian Airlines, United States
+--------------------------------------------------------------------------------
+Query: HOLA PEPSI COLA
+
+ERROR: unknown query
+--------------------------------------------------------------------------------
+Query: DAY WITH MORE DELAYS,EWR
+
+The day with more delays in the given airports has been 2019/06/25 
+with total departure and arrival delays = 53345
+--------------------------------------------------------------------------------
+Query: DAY WITH MORE DELAYS,JFK
+
+The day with more delays in the given airports has been 2019/06/29 
+with total departure and arrival delays = 39623
+--------------------------------------------------------------------------------
+Query: DAY WITH MORE DELAYS,EWR,JFK
+
+The day with more delays in the given airports has been 2019/06/29 
+with total departure and arrival delays = 87258
+--------------------------------------------------------------------------------
+Query: DAY WITH MORE DELAYS,ORL
+
+No flights, no delays.
+--------------------------------------------------------------------------------
+Query: DAY WITH MORE DELAYS,MIAU,MIAU,EWR,ORL
+
+ERROR: MIAU is an unknown IATA airport code
+
+ERROR: MIAU is an unknown IATA airport code
+
+The day with more delays in the given airports has been 2019/06/25 
+with total departure and arrival delays = 53345
+--------------------------------------------------------------------------------
+Query: DAY WITH MORE DELAYS
+
+The day with more delays in the given airports has been 2019/06/20 
+with total departure and arrival delays = 1150291
+
+
+Time taken by function: 18333672 microseconds

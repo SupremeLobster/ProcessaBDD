@@ -1,0 +1,3553 @@
+AutoGen Definitions dummy;
+class = {
+  cp-id     = 'class_airline';
+  cp-name   = 'Airline';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airline_1a3646b7cb1f7f1b5e5d91f9a7b91f3493';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Airline';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const vector< string > &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'v';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '19';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  El vector conte les dades d'una aerolinia amb el format correcte.
+@post Crea una nova aerolinia a partir de les dades contingudes en el vector.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1a5ea6629fb20c5a0cf8c916ff3b100650';
+        sec-mem-ref-line = '55';
+        sec-mem-ref-name = 'a_active';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1aa4a6c891c3ad557f73d570e325567ce6';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_alias';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1a98018d41360e5a746e493c3db4193a02';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_callsign';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1a4d465e281914486507afd9db57db0aa3';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_country';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1acfa328633af4291b668e89af096051ca';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_IATA';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1a87660d821a6a8d94b7138983d0764b11';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_ICAO';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1ab8c5058d9f104dfe2f89ebb076fd9e00';
+        sec-mem-ref-line = '53';
+        sec-mem-ref-name = 'a_id';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1a25916ba0f7075fde218319286a0617b8';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_name';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airline_1aa1899a60db1456d6780efc4fe6640440';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'mostra';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Mostra el nom i el pais d'aquesta aerolinia.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1a4d465e281914486507afd9db57db0aa3';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_country';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1a25916ba0f7075fde218319286a0617b8';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_name';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airline_1ab72b26541b18e8bc3115ada079712e15';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_name';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '32';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el nom d'aquesta aerolinia.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1a25916ba0f7075fde218319286a0617b8';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_name';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airline_1a51b883582943cffad268872498e660c3';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_country';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '38';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el pais d'aquesta aerolinia.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1a4d465e281914486507afd9db57db0aa3';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_country';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airline_1af049dfdb86b4359a9e929bef396e09ec';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '44';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el codi IATA d'aquesta aerolinia.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1acfa328633af4291b668e89af096051ca';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_IATA';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airline_1aa5313c5664a817cc865336a9ff5bad6c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_ICAO';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '50';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el codi ICAO d'aquesta aerolinia.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airline_8h_1a87660d821a6a8d94b7138983d0764b11';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_ICAO';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airline_1ab8c5058d9f104dfe2f89ebb076fd9e00';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_id';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '53';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1a3646b7cb1f7f1b5e5d91f9a7b91f3493';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airline';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airline_1a25916ba0f7075fde218319286a0617b8';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_name';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1a3646b7cb1f7f1b5e5d91f9a7b91f3493';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airline';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1aa1899a60db1456d6780efc4fe6640440';
+        sec-mem-ref-line = '21';
+        sec-mem-ref-name = 'mostra';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1ab72b26541b18e8bc3115ada079712e15';
+        sec-mem-ref-line = '26';
+        sec-mem-ref-name = 'get_name';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airline_1aa4a6c891c3ad557f73d570e325567ce6';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_alias';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1a3646b7cb1f7f1b5e5d91f9a7b91f3493';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airline';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airline_1acfa328633af4291b668e89af096051ca';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1a3646b7cb1f7f1b5e5d91f9a7b91f3493';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airline';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1af049dfdb86b4359a9e929bef396e09ec';
+        sec-mem-ref-line = '36';
+        sec-mem-ref-name = 'get_IATA';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airline_1a87660d821a6a8d94b7138983d0764b11';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_ICAO';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1a3646b7cb1f7f1b5e5d91f9a7b91f3493';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airline';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1aa5313c5664a817cc865336a9ff5bad6c';
+        sec-mem-ref-line = '41';
+        sec-mem-ref-name = 'get_ICAO';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airline_1a98018d41360e5a746e493c3db4193a02';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_callsign';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1a3646b7cb1f7f1b5e5d91f9a7b91f3493';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airline';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airline_1a4d465e281914486507afd9db57db0aa3';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_country';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1a3646b7cb1f7f1b5e5d91f9a7b91f3493';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airline';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1aa1899a60db1456d6780efc4fe6640440';
+        sec-mem-ref-line = '21';
+        sec-mem-ref-name = 'mostra';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1a51b883582943cffad268872498e660c3';
+        sec-mem-ref-line = '31';
+        sec-mem-ref-name = 'get_country';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airline_1a5ea6629fb20c5a0cf8c916ff3b100650';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+char
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_active';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+      sec-mem-desc-line = '55';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airline_8cpp_1a3646b7cb1f7f1b5e5d91f9a7b91f3493';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airline';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+  cp-fileline  = '13';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'string';
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Airline';
+        node-link = {
+          node-link-id = 'class_airline';
+        };
+        node-child = {
+          child-id = '2';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_country
+a_IATA
+a_ICAO
+a_name
+a_alias
+a_callsign
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '3';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_active
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '4';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_id
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 4;
+        node-label = 'int';
+      }; /* node */
+      node = {
+        node-id    = 3;
+        node-label = 'char';
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_airport';
+  cp-name   = 'Airport';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airport_1ae0d0848773e183e87b084f0bffd63461';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Airport';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const vector< string > &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'v';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  El vector conte les dades d'un aeroport amb el format correcte.
+@post Crea un nou aeroport a partir de les dades contingudes en el vector.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a1c6cb3f8a42b03960cdd12120b618280';
+        sec-mem-ref-line = '51';
+        sec-mem-ref-name = 'a_alt';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a170f19103d2a6162798e5f1c4cc11247';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_city';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1aaa61ecc1bdb5c8945cde09f2a1f29908';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_country';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a561e4e8f3c920fbbe2f7527d583d53db';
+        sec-mem-ref-line = '53';
+        sec-mem-ref-name = 'a_DST';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a551f5c927bb656eb4f13ce7148e52d4d';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_IATA';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a7956ee608bb273b32cd67335fe981e90';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_ICAO';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a43d0dd73def66ec665c7ae811a89aec7';
+        sec-mem-ref-line = '48';
+        sec-mem-ref-name = 'a_id';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1ab5ffbfafd69f52eaaa8b65275a429664';
+        sec-mem-ref-line = '50';
+        sec-mem-ref-name = 'a_lat';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1ab714d7e0de33c99103aebde9f488772c';
+        sec-mem-ref-line = '50';
+        sec-mem-ref-name = 'a_long';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a05e33d5ad937751c71d418825dc2f651';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_name';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a8b3030e9200ec2159a7479ad7194f0e6';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_source';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a9be535d2d101e0fedd642ca60fcd8bad';
+        sec-mem-ref-line = '52';
+        sec-mem-ref-name = 'a_timezone';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a2bf266610bbac8f673c14b0308eadac8';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_type';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1acf9f909977882ddfa46ffdf5108f9b4b';
+        sec-mem-ref-line = '54';
+        sec-mem-ref-name = 'a_TZ';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airport_1a4df1ac2135bab22da46693fe61f22ab8';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'mostra';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '27';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Mostra el nom, la ciutat i el pais d'aquest aeroport.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a170f19103d2a6162798e5f1c4cc11247';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_city';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1aaa61ecc1bdb5c8945cde09f2a1f29908';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_country';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a05e33d5ad937751c71d418825dc2f651';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_name';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airport_1a5828a1a9e3fb731634de4aa67aaa4142';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_country';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '33';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el pais d'aquest aeroport.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1aaa61ecc1bdb5c8945cde09f2a1f29908';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_country';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airport_1ac33fe90defa1fe4a6ecbe85d1f99dcab';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '39';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el codi IATA d'aquest aeroport.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a551f5c927bb656eb4f13ce7148e52d4d';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_IATA';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_airport_1a2fc94e41895ecbe8baadefcc8705c5cc';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_ICAO';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '45';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el codi ICAO d'aquest aeroport.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_airport_8h_1a7956ee608bb273b32cd67335fe981e90';
+        sec-mem-ref-line = '49';
+        sec-mem-ref-name = 'a_ICAO';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1a43d0dd73def66ec665c7ae811a89aec7';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_id';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '48';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1a05e33d5ad937751c71d418825dc2f651';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_name';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1a4df1ac2135bab22da46693fe61f22ab8';
+        sec-mem-ref-line = '37';
+        sec-mem-ref-name = 'mostra';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1a170f19103d2a6162798e5f1c4cc11247';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_city';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1a4df1ac2135bab22da46693fe61f22ab8';
+        sec-mem-ref-line = '37';
+        sec-mem-ref-name = 'mostra';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1aaa61ecc1bdb5c8945cde09f2a1f29908';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_country';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1a4df1ac2135bab22da46693fe61f22ab8';
+        sec-mem-ref-line = '37';
+        sec-mem-ref-name = 'mostra';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1a5828a1a9e3fb731634de4aa67aaa4142';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'get_country';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1a551f5c927bb656eb4f13ce7148e52d4d';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ac33fe90defa1fe4a6ecbe85d1f99dcab';
+        sec-mem-ref-line = '47';
+        sec-mem-ref-name = 'get_IATA';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1a7956ee608bb273b32cd67335fe981e90';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_ICAO';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1a2fc94e41895ecbe8baadefcc8705c5cc';
+        sec-mem-ref-line = '52';
+        sec-mem-ref-name = 'get_ICAO';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1ab5ffbfafd69f52eaaa8b65275a429664';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_lat';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '50';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1ab714d7e0de33c99103aebde9f488772c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+double
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_long';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '50';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1a1c6cb3f8a42b03960cdd12120b618280';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_alt';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '51';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1a9be535d2d101e0fedd642ca60fcd8bad';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_timezone';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '52';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1a561e4e8f3c920fbbe2f7527d583d53db';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+char
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_DST';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '53';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1acf9f909977882ddfa46ffdf5108f9b4b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_TZ';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1a2bf266610bbac8f673c14b0308eadac8';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_type';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_airport_1a8b3030e9200ec2159a7479ad7194f0e6';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_source';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+      sec-mem-desc-line = '54';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_airport_8cpp_1ae0d0848773e183e87b084f0bffd63461';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Airport';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+  cp-fileline  = '14';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'Airport';
+        node-link = {
+          node-link-id = 'class_airport';
+        };
+        node-child = {
+          child-id = '2';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_lat
+a_long
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '3';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_TZ
+a_IATA
+a_country
+a_ICAO
+a_type
+a_city
+a_name
+a_source
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '4';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_DST
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '5';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_timezone
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '6';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_alt
+a_id
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 3;
+        node-label = 'string';
+      }; /* node */
+      node = {
+        node-id    = 5;
+        node-label = 'float';
+      }; /* node */
+      node = {
+        node-id    = 6;
+        node-label = 'int';
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'double';
+      }; /* node */
+      node = {
+        node-id    = 4;
+        node-label = 'char';
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_flight';
+  cp-name   = 'Flight';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_flight_1a1fb9bdfbde2ec894d527f4821aec543a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Flight';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const vector< string > &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'v';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  El vector conte les dades d'un vol amb el format correcte.
+@post Crea un nou vol a partir de les dades contingudes en el vector.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1accf2d694581092b6e3ca8ebe45a88a13';
+        sec-mem-ref-line = '71';
+        sec-mem-ref-name = '_b_cancelled';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a512b976cd87d988872ef3d80dc065134';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = '_f_ACTUAL_elapsed';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a92d71a1319e1468a0cba6905a93a2c36';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = '_f_arr_DELAY';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a2dccebe22de780b8ad21e61cf4b3d3f0';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = '_f_CRS_elapsed';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a4853a30b5c717867b910782721b9b256';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = '_f_dept_DELAY';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a9d8a5de604b09b82e916eccbae5c49eb';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = '_f_distance';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a90cb38dce27f8533efc3d5815b4ff2bc';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = '_i_ACTUAL_arr';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1aa7f1e8040fccced9c7e1463c064895ea';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = '_i_ACTUAL_dept';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1af8e4719a18955b968c70086903ac2913';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = '_i_CRS_arr';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1ab97d3e56368e8ad13e8aa468ae555668';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = '_i_CRS_dept';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a170f1a617d29e9dd0f3cb44a918ff542';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = '_i_op_carrier_fl_num';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1ae6068597ab8d6f5417ce617c436bbfce';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = '_s_day_of_month';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a8845db6e31fb0692abb4a477c2d57813';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = '_s_day_of_week';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a82b7ed57500229380b7ffe2f1178bf8a';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = '_s_dest_CITY';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1ab44794c76a860b501cf617ebcee8cd45';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = '_s_dest_IATA';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a179494f7a8386b60dad98a3b9bf44e6e';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = '_s_month';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1ad8f338051c73b8f48e1247f4b603cb92';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = '_s_op_carrier_IATA';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a54635e1e2f7f9a5430c80eb25e87750c';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = '_s_origin_CITY';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a91cf08c795a00733660b30527f0c15c9';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = '_s_origin_IATA';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1aa7055aa3453928f4eda27ffb22e3a1e0';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = '_s_year';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_flight_1a2156b06b401ac3659e46e15529426ca0';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_date';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '27';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna la data d'aquest vol en format [AAAAMMDD].
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1ae6068597ab8d6f5417ce617c436bbfce';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = '_s_day_of_month';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a179494f7a8386b60dad98a3b9bf44e6e';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = '_s_month';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1aa7055aa3453928f4eda27ffb22e3a1e0';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = '_s_year';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_flight_1a25a5965638a7333f0b93be397b20bc65';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_op_carrier_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '33';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retrona el codi IATA de la aerolinia d'aquest vol.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1ad8f338051c73b8f48e1247f4b603cb92';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = '_s_op_carrier_IATA';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_flight_1abf04f230a55e1f1bffcdcf26f570d64b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_origin_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '39';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el codi IATA de l'aeroport d'origen d'aquest vol.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a91cf08c795a00733660b30527f0c15c9';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = '_s_origin_IATA';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_flight_1a8420034f5d034193c86b182d3fe7473d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_dest_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '45';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el codi IATA de l'aeroport de desti d'aquest vol.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1ab44794c76a860b501cf617ebcee8cd45';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = '_s_dest_IATA';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_flight_1a3629be0d706b9c9098c3487d5463a289';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_dept_DELAY';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '51';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el retard de sortida d'aquest vol.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a4853a30b5c717867b910782721b9b256';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = '_f_dept_DELAY';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_flight_1a2ba3c632e011eb61308edd984259dea4';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_arr_DELAY';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '57';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el retard d'arribada d'aquest vol.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a92d71a1319e1468a0cba6905a93a2c36';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = '_f_arr_DELAY';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_flight_1a058c2b538d2c32e5d6813009e19622f0';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'es_aeroport_origen';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const string &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'ap';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '63';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  'ap' es el codi IATA d'un aeroport.
+@post Diu si 'ap' es l'aeroport d'origen d'aquest vol.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_flight_8h_1a91cf08c795a00733660b30527f0c15c9';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = '_s_origin_IATA';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1aa7055aa3453928f4eda27ffb22e3a1e0';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_s_year';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a2156b06b401ac3659e46e15529426ca0';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'get_date';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a179494f7a8386b60dad98a3b9bf44e6e';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_s_month';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a2156b06b401ac3659e46e15529426ca0';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'get_date';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1ae6068597ab8d6f5417ce617c436bbfce';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_s_day_of_month';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a2156b06b401ac3659e46e15529426ca0';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'get_date';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a8845db6e31fb0692abb4a477c2d57813';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_s_day_of_week';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1ad8f338051c73b8f48e1247f4b603cb92';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_s_op_carrier_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a25a5965638a7333f0b93be397b20bc65';
+        sec-mem-ref-line = '51';
+        sec-mem-ref-name = 'get_op_carrier_IATA';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a170f1a617d29e9dd0f3cb44a918ff542';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_i_op_carrier_fl_num';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a91cf08c795a00733660b30527f0c15c9';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_s_origin_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '68';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1abf04f230a55e1f1bffcdcf26f570d64b';
+        sec-mem-ref-line = '56';
+        sec-mem-ref-name = 'get_origin_IATA';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a058c2b538d2c32e5d6813009e19622f0';
+        sec-mem-ref-line = '76';
+        sec-mem-ref-name = 'es_aeroport_origen';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a54635e1e2f7f9a5430c80eb25e87750c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_s_origin_CITY';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '68';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1ab44794c76a860b501cf617ebcee8cd45';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_s_dest_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '68';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a8420034f5d034193c86b182d3fe7473d';
+        sec-mem-ref-line = '61';
+        sec-mem-ref-name = 'get_dest_IATA';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a82b7ed57500229380b7ffe2f1178bf8a';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_s_dest_CITY';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '68';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1ab97d3e56368e8ad13e8aa468ae555668';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_i_CRS_dept';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1aa7f1e8040fccced9c7e1463c064895ea';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_i_ACTUAL_dept';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1af8e4719a18955b968c70086903ac2913';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_i_CRS_arr';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a90cb38dce27f8533efc3d5815b4ff2bc';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_i_ACTUAL_arr';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a4853a30b5c717867b910782721b9b256';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_f_dept_DELAY';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '70';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a3629be0d706b9c9098c3487d5463a289';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'get_dept_DELAY';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a92d71a1319e1468a0cba6905a93a2c36';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_f_arr_DELAY';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '70';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a2ba3c632e011eb61308edd984259dea4';
+        sec-mem-ref-line = '71';
+        sec-mem-ref-name = 'get_arr_DELAY';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1accf2d694581092b6e3ca8ebe45a88a13';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_b_cancelled';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '71';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a2dccebe22de780b8ad21e61cf4b3d3f0';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_f_CRS_elapsed';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '72';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a512b976cd87d988872ef3d80dc065134';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_f_ACTUAL_elapsed';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '72';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_flight_1a9d8a5de604b09b82e916eccbae5c49eb';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+float
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '_f_distance';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+      sec-mem-desc-line = '72';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_flight_8cpp_1a1fb9bdfbde2ec894d527f4821aec543a';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Flight';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+  cp-fileline  = '14';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'string';
+      }; /* node */
+      node = {
+        node-id    = 3;
+        node-label = 'float';
+      }; /* node */
+      node = {
+        node-id    = 4;
+        node-label = 'int';
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Flight';
+        node-link = {
+          node-link-id = 'class_flight';
+        };
+        node-child = {
+          child-id = '2';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+_s_month
+_s_day_of_month
+_s_day_of_week
+_s_year
+_s_origin_CITY
+_s_dest_IATA
+_s_dest_CITY
+_s_origin_IATA
+_s_op_carrier_IATA
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '3';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+_f_ACTUAL_elapsed
+_f_dept_DELAY
+_f_CRS_elapsed
+_f_arr_DELAY
+_f_distance
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '4';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+_i_ACTUAL_arr
+_i_op_carrier_fl_num
+_i_ACTUAL_dept
+_i_CRS_dept
+_i_CRS_arr
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '5';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+_b_cancelled
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 5;
+        node-label = 'bool';
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_plane';
+  cp-name   = 'Plane';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_plane_1ab69b3a9329e9ccff06e9124f6fb95fbb';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Plane';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const vector< string > &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'v';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Plane.h';
+      sec-mem-desc-line = '19';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  El vector conte les dades d'un avio amb el format correcte.
+@post Crea un nou avio a partir de les dades contingudes en el vector.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_plane_8h_1a38e1dfc0a31a499310119972f229ec4b';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'a_IATA';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_plane_8h_1a34041e45ecdc394ca8873b0ee035e9f3';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'a_ICAO';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_plane_8h_1a11dc580e764280ed9a907ed20ffd0c8b';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'a_name';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_plane_1a1b8c3d32842c736940779d3ed22a9906';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_name';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Plane.h';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el nom d'aquest avio.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_plane_8h_1a11dc580e764280ed9a907ed20ffd0c8b';
+        sec-mem-ref-line = '29';
+        sec-mem-ref-name = 'a_name';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_plane_1a11dc580e764280ed9a907ed20ffd0c8b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_name';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Plane.h';
+      sec-mem-desc-line = '29';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_plane_8cpp_1ab69b3a9329e9ccff06e9124f6fb95fbb';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Plane';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_plane_8cpp_1a1b8c3d32842c736940779d3ed22a9906';
+        sec-mem-ref-line = '16';
+        sec-mem-ref-name = 'get_name';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_plane_1a38e1dfc0a31a499310119972f229ec4b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_IATA';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Plane.h';
+      sec-mem-desc-line = '29';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_plane_8cpp_1ab69b3a9329e9ccff06e9124f6fb95fbb';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Plane';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_plane_1a34041e45ecdc394ca8873b0ee035e9f3';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_ICAO';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Plane.h';
+      sec-mem-desc-line = '29';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_plane_8cpp_1ab69b3a9329e9ccff06e9124f6fb95fbb';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Plane';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Plane.h';
+  cp-fileline  = '13';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'string';
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'Plane';
+        node-link = {
+          node-link-id = 'class_plane';
+        };
+        node-child = {
+          child-id = '2';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_IATA
+a_ICAO
+a_name
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'class_route';
+  cp-name   = 'Route';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_route_1a4ae82082c7ec1c155db282a13d4e261d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Route';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const vector< string > &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'v';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  El vector conte les dades d'una ruta amb el format correcte.
+@post Crea una nova ruta a partir de les dades contingudes en el vector.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1a18b31b72d69566a7c6e6faa9919dd776';
+        sec-mem-ref-line = '65';
+        sec-mem-ref-name = 'a_airline';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1aa4d2d211106f7e3a99e038d542a02585';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'a_airline_id';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1a9cf4ff8ee871dcba718e785d7879d12f';
+        sec-mem-ref-line = '71';
+        sec-mem-ref-name = 'a_codeshare';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1ab53f20b5c09a6fe0d5ab27af52474db0';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = 'a_dest';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1a8d85f062ce8847b049ab51c1844dfffe';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = 'a_dest_id';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1adb4dd5a1493903719f185f152604c193';
+        sec-mem-ref-line = '72';
+        sec-mem-ref-name = 'a_n_stops';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1ac2b2aad90685b93a234351968b19dd70';
+        sec-mem-ref-line = '75';
+        sec-mem-ref-name = 'a_plane_IATAs';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1a93d34e48566f6fe32fd4980b7db59b89';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'a_source';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1ab80a7d6e3c9992e40ad248bd7f891d08';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = 'a_source_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_route_1abb967f1a10972a0756bad4f1b7acf1d0';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_airline';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el codi IATA o ICAO de l'aerolinia d'aquesta ruta.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1a18b31b72d69566a7c6e6faa9919dd776';
+        sec-mem-ref-line = '65';
+        sec-mem-ref-name = 'a_airline';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_route_1a19c1ca90c668fe7679ceb569a7e8165f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_airline_id';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '32';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna la OpenFlights ID de l'aerolinia d'aquesta ruta.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1aa4d2d211106f7e3a99e038d542a02585';
+        sec-mem-ref-line = '66';
+        sec-mem-ref-name = 'a_airline_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_route_1a1750c39938910529a8412cd0c0a5f2d1';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_source';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '38';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el codi IATA o ICAO de l'aeroport d'origen d'aquesta ruta.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1a93d34e48566f6fe32fd4980b7db59b89';
+        sec-mem-ref-line = '67';
+        sec-mem-ref-name = 'a_source';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_route_1a5058d22b709123642bbbafaa4bf80038';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_source_id';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '44';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna la OpenFlights ID de l'aeroport d'origen d'aquesta ruta.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1ab80a7d6e3c9992e40ad248bd7f891d08';
+        sec-mem-ref-line = '68';
+        sec-mem-ref-name = 'a_source_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_route_1a2eeb518c9577ba15ed0ef76709f04b86';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_dest';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '50';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna el codi IATA o ICAO de l'aeroport de desti d'aquesta ruta.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1ab53f20b5c09a6fe0d5ab27af52474db0';
+        sec-mem-ref-line = '69';
+        sec-mem-ref-name = 'a_dest';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_route_1ac4b1bedc57ae295b06ac6a186b92c3b6';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_dest_id';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '56';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna la OpenFlights ID de l'aeroport de desti d'aquesta ruta.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1a8d85f062ce8847b049ab51c1844dfffe';
+        sec-mem-ref-line = '70';
+        sec-mem-ref-name = 'a_dest_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_route_1abc35db27c57021f4985655e1a9d71c77';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'get_plane_IATAs';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '62';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna un sol string que conte tots els codis IATA dels avions d'aquesta ruta.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_route_8h_1ac2b2aad90685b93a234351968b19dd70';
+        sec-mem-ref-line = '75';
+        sec-mem-ref-name = 'a_plane_IATAs';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_route_1a18b31b72d69566a7c6e6faa9919dd776';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_airline';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '65';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a4ae82082c7ec1c155db282a13d4e261d';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Route';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1abb967f1a10972a0756bad4f1b7acf1d0';
+        sec-mem-ref-line = '30';
+        sec-mem-ref-name = 'get_airline';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_route_1aa4d2d211106f7e3a99e038d542a02585';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_airline_id';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '66';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a4ae82082c7ec1c155db282a13d4e261d';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Route';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a19c1ca90c668fe7679ceb569a7e8165f';
+        sec-mem-ref-line = '35';
+        sec-mem-ref-name = 'get_airline_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_route_1a93d34e48566f6fe32fd4980b7db59b89';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_source';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a4ae82082c7ec1c155db282a13d4e261d';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Route';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a1750c39938910529a8412cd0c0a5f2d1';
+        sec-mem-ref-line = '40';
+        sec-mem-ref-name = 'get_source';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_route_1ab80a7d6e3c9992e40ad248bd7f891d08';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_source_id';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '68';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a4ae82082c7ec1c155db282a13d4e261d';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Route';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a5058d22b709123642bbbafaa4bf80038';
+        sec-mem-ref-line = '45';
+        sec-mem-ref-name = 'get_source_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_route_1ab53f20b5c09a6fe0d5ab27af52474db0';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_dest';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a4ae82082c7ec1c155db282a13d4e261d';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Route';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a2eeb518c9577ba15ed0ef76709f04b86';
+        sec-mem-ref-line = '50';
+        sec-mem-ref-name = 'get_dest';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_route_1a8d85f062ce8847b049ab51c1844dfffe';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_dest_id';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '70';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a4ae82082c7ec1c155db282a13d4e261d';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Route';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1ac4b1bedc57ae295b06ac6a186b92c3b6';
+        sec-mem-ref-line = '55';
+        sec-mem-ref-name = 'get_dest_id';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_route_1a9cf4ff8ee871dcba718e785d7879d12f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+char
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_codeshare';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '71';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a4ae82082c7ec1c155db282a13d4e261d';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Route';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_route_1adb4dd5a1493903719f185f152604c193';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_n_stops';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '72';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a4ae82082c7ec1c155db282a13d4e261d';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Route';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'class_route_1ac2b2aad90685b93a234351968b19dd70';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'a_plane_IATAs';
+      sec-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+      sec-mem-desc-line = '75';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Guarda tots els codi IATA dels avions d'aquesta ruta en un sol string.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1a4ae82082c7ec1c155db282a13d4e261d';
+        sec-mem-ref-line = '7';
+        sec-mem-ref-name = 'Route';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_route_8cpp_1abc35db27c57021f4985655e1a9d71c77';
+        sec-mem-ref-line = '60';
+        sec-mem-ref-name = 'get_plane_IATAs';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+  cp-fileline  = '14';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'Route';
+        node-link = {
+          node-link-id = 'class_route';
+        };
+        node-child = {
+          child-id = '2';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_dest
+a_plane_IATAs
+a_airline
+a_source
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '3';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_codeshare
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '4';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
+a_dest_id
+a_source_id
+a_airline_id
+a_n_stops
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'string';
+      }; /* node */
+      node = {
+        node-id    = 4;
+        node-label = 'int';
+      }; /* node */
+      node = {
+        node-id    = 3;
+        node-label = 'char';
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+file = {
+  file-id   = '_airline_8cpp';
+  file-name = 'Airline.cpp';
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_airline_8h';
+  file-name = 'Airline.h';
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airline.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_airport_8cpp';
+  file-name = 'Airport.cpp';
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_airport_8h';
+  file-name = 'Airport.h';
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Airport.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_flight_8cpp';
+  file-name = 'Flight.cpp';
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_flight_8h';
+  file-name = 'Flight.h';
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Flight.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'main_8cpp';
+  file-name = 'main.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1a4b3feb2d0251ea4907aeadd60e140d94';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'isValidChar';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const char &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'x';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+      func-mem-desc-line = '713';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna TRUE si 'x' es un numero o una lletra majuscula, FALSE altrament.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae8282f16bd813169b08d6f20d30c0c31';
+        func-mem-ref-line = '695';
+        func-mem-ref-name = 'sentence_to_list_of_words';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1ae8282f16bd813169b08d6f20d30c0c31';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+list< string >
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'sentence_to_list_of_words';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const string &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 's';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+      func-mem-desc-line = '695';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Retorna una llista amb totes les paraules que hi hagues a 's', una paraula a cada posicio.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1a4b3feb2d0251ea4907aeadd60e140d94';
+        func-mem-ref-line = '713';
+        func-mem-ref-name = 'isValidChar';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae83a8b637639bf4304ca8941db3d2dfe';
+        func-mem-ref-line = '643';
+        func-mem-ref-name = 'esRutaValida';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1a8ab09479e16a8d55292b535d1f4a0804';
+        func-mem-ref-line = '515';
+        func-mem-ref-name = 'mostUsedPlane';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1ae83a8b637639bf4304ca8941db3d2dfe';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'esRutaValida';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const vector< string > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'vr';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< int, Airport > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_int_airports';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Airport * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_str_airports_IATA';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Airport * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_str_airports_ICAO';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< int, Airline > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_airlines';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Plane > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_planes';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+      func-mem-desc-line = '643';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  'vr' es un vector que conte una ruta llegida del fitxer de rutes, amb el format correcte.
+@post Diu si la ruta continguda al vector 'vr' es valida o no.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1ae8282f16bd813169b08d6f20d30c0c31';
+        func-mem-ref-line = '695';
+        func-mem-ref-name = 'sentence_to_list_of_words';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1adedf3007e221aded6bdde92f09319ed9';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'esVolValid';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const vector< string > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'vv';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Airport * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_str_airports_IATA';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Airline * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_str_airlines_IATA';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+      func-mem-desc-line = '508';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  'vv' es un vector que conte un vol llegit del fitxer de vols, amb el format correcte.
+@post Diu si el vol contingut al vector 'vv' es valid o no.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1a32cf8373407562c4e8e3b0b89559afc7';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'countRoutes';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< int, Airport > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_int_airports';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Airport * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_str_airports_IATA';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Airport * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_str_airports_ICAO';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< int, Airline > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_airlines';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Plane > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_planes';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const list< Route > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'l_routes';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+      func-mem-desc-line = '565';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Compta quantes rutes nacionals i internacionals te cada companyia aeria i ho mostra.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1a8ab09479e16a8d55292b535d1f4a0804';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'mostUsedPlane';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< int, Airline > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_airlines';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Plane > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_planes';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const list< Route > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'l_routes';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'al_IATA';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+      func-mem-desc-line = '515';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Diu quin es l'avio mes utilitzat per una companyia donada a 'al_IATA'. Mostra tots els mes utilitzats en cas d'empat.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1ae8282f16bd813169b08d6f20d30c0c31';
+        func-mem-ref-line = '695';
+        func-mem-ref-name = 'sentence_to_list_of_words';
+    };
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1a53846856d756a86bb4da95c0103a19da';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'delayAirports';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Airport * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_str_airports_IATA';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const multimap< string, Flight > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'mm_flights_DATE';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'n';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'year';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'month';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'day';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'opcio';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+      func-mem-desc-line = '418';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  'opcio' es 1 si es vol la consulta "DEPARTURE DELAY AIRPORTS" o 2 si es vol "ARRIVAL DELAY AIRPORTS". 'n' >= 0.
+@post Mostra el llistat ordenat dels 'n' (0 per indicar tots) aeroports amb mes retards de sortida/arribada (en funcio de 'opcio') en una data determinada.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1ac1dad46fcc0830babc169449fb0d6766';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'delayAirlines';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Airline * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_str_airlines_IATA';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const multimap< string, Flight * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'mm_flights_AL';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'n';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'opcio';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+      func-mem-desc-line = '342';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  'opcio' es 1 si es vol la consulta "DEPARTURE DELAY AIRLINES" o 2 si es vol "ARRIVAL DELAY AIRLINES". 'n' >= 0.
+@post Mostra el llistat ordenat de les 'n' (0 per indicar tots) aerolinies amb mes retards de sortida/arribada (en funcio de 'opcio').
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1a9ffe7f118647d9bbf4cf516a65c96da7';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'dayWithMoreDelays';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const map< string, Airport * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'm_str_airports_IATA';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const multimap< string, Flight > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'mm_flights_DATE';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const multimap< string, Flight * > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'mm_flights_AL';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const list< string > &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'l_airports_IATA';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+      func-mem-desc-line = '271';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre Cert.
+@post Dia amb mes retards tant de sortida com d'arribada en un subconjunt donat d'aeroports (conjunt buit per indicar tots els aeroports). En cas d'empat llista tots els dies amb retards maxims.
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+      func-mem-desc-line = '89';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1a32cf8373407562c4e8e3b0b89559afc7';
+        func-mem-ref-line = '565';
+        func-mem-ref-name = 'countRoutes';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1a9ffe7f118647d9bbf4cf516a65c96da7';
+        func-mem-ref-line = '271';
+        func-mem-ref-name = 'dayWithMoreDelays';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1ac1dad46fcc0830babc169449fb0d6766';
+        func-mem-ref-line = '342';
+        func-mem-ref-name = 'delayAirlines';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1a53846856d756a86bb4da95c0103a19da';
+        func-mem-ref-line = '418';
+        func-mem-ref-name = 'delayAirports';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1ae83a8b637639bf4304ca8941db3d2dfe';
+        func-mem-ref-line = '643';
+        func-mem-ref-name = 'esRutaValida';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1adedf3007e221aded6bdde92f09319ed9';
+        func-mem-ref-line = '508';
+        func-mem-ref-name = 'esVolValid';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'utils_8cpp_1a30eb73c06b56fff7315b74b4d7c7e91d';
+        func-mem-ref-line = '23';
+        func-mem-ref-name = 'getNextLineAndSplitIntoTokens';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'main_8cpp_1a8ab09479e16a8d55292b535d1f4a0804';
+        func-mem-ref-line = '515';
+        func-mem-ref-name = 'mostUsedPlane';
+    };
+      func-mem-referenceto = {
+        func-mem-ref-id = 'utils_8cpp_1a2d2f12bc80cefdb695b93233589d84bc';
+        func-mem-ref-line = '13';
+        func-mem-ref-name = 'openFile';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/main.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_plane_8cpp';
+  file-name = 'Plane.cpp';
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Plane.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_plane_8h';
+  file-name = 'Plane.h';
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Plane.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_route_8cpp';
+  file-name = 'Route.cpp';
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_route_8h';
+  file-name = 'Route.h';
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/Route.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'utils_8cpp';
+  file-name = 'utils.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'utils_8cpp_1a2d2f12bc80cefdb695b93233589d84bc';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'openFile';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+ifstream &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'f';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const string &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'filename';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/utils.cpp';
+      func-mem-desc-line = '13';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Opens and attaches file  filename  to stream  f
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'utils_8cpp_1a30eb73c06b56fff7315b74b4d7c7e91d';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+vector< string >
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'getNextLineAndSplitIntoTokens';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+istream &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'str';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/utils.cpp';
+      func-mem-desc-line = '23';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  str  is a stream in CSV format
+@post reads and returns the fields in the first line of  str  removing quotes if any
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/utils.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'utils_8h';
+  file-name = 'utils.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'utils_8h_1a2d2f12bc80cefdb695b93233589d84bc';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'openFile';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+ifstream &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'f';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const string &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'filename';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/utils.h';
+      func-mem-desc-line = '16';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  Cert.
+@post Opens and attaches file  filename  to stream  f
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'utils_8h_1a30eb73c06b56fff7315b74b4d7c7e91d';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+vector< string >
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'getNextLineAndSplitIntoTokens';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+istream &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'str';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/utils.h';
+      func-mem-desc-line = '22';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@pre  str  is a stream in CSV format
+@post reads and returns the fields in the first line of  str  removing quotes if any
+_EnD_oF_dEf_TeXt_;
+      func-mem-referenceby = {
+        func-mem-ref-id = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+        func-mem-ref-line = '89';
+        func-mem-ref-name = 'main';
+    };
+    }; /* func-member */
+    };
+  file-full-name  = 'C:/Users/vilad/OneDrive - campus.udg.edu/Documents [UdG-GEINF]/2019-2020/EDA [P.Inf]/S4/utils.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */

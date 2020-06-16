@@ -1,0 +1,77 @@
+// Marti Mas Fullana
+// Usuari u1956231
+// Sessio 4
+
+#include "Airport.h"
+
+Airport::Airport() {
+
+    a_id = a_alt = 0;
+    a_name = a_city = a_country = a_IATA = a_ICAO = a_TZ = a_type = a_source = "";
+    a_lat = a_long = 0;
+    a_timezone = 0;
+    a_DST = ' ';
+}
+
+Airport::Airport(const vector<string>& v) {
+
+    vector<string>::const_iterator it = v.begin();
+
+    a_id = stoi(*it); it++;
+    a_name = *it; it++;
+    a_city = *it; it++;
+    a_country = *it; it++;
+    a_IATA = *it; it++;
+    a_ICAO = *it; it++;
+    if(*it != "\\N") a_lat = stod(*it);
+    else a_lat = -1;
+    it++;
+    if(*it != "\\N") a_long = stod(*it);
+    else a_long = -1;
+    it++;
+    if(*it != "\\N") a_alt = stoi(*it);
+    else a_alt = -1;
+    it++;
+    if(*it != "\\N") a_timezone = stof(*it);
+    else a_timezone = -1;
+    it++;
+    if(*it != "\\N") a_DST = (*it)[0];
+    else a_DST = '\0';
+    it++;
+    a_TZ = *it; it++;
+    a_type = *it; it++;
+    a_source = *it; it++;
+}
+
+void Airport::mostra() const {
+/// FOR TESTING ONLY
+
+    cout << a_name << 
+    cout << a_city << endl;
+    cout << a_country << endl;
+    cout << a_IATA << endl;
+    cout << a_ICAO << endl;
+    cout << setprecision(16) << a_lat << endl;
+    cout << setprecision(16) << a_long << endl;
+    cout << a_alt << endl;
+    cout << a_timezone << endl;
+    cout << a_DST << endl;
+    cout << a_TZ << endl;
+    cout << a_type << endl;
+    cout << a_source << endl;
+}
+
+string Airport::get_country() const {
+
+    return a_country;
+}
+
+string Airport::get_IATA() const {
+
+    return a_IATA;
+}
+
+string Airport::get_ICAO() const {
+
+    return a_ICAO;
+}
